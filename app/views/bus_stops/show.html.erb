@@ -1,8 +1,7 @@
 <h1><%= @bus_stop.name %></h1>
-<p><%= params[:service] %></p>
 
 <p>TIMES<br>
 <% @times.each do |t| %>
-	<%= t.departure.strftime("%H:%M") unless !t.departure %>, <%= t.service.id %>, <%= t.journey_detail.operator %><br>
+	<%= t.departure.strftime("%H:%M") unless !t.departure %>, <%= t.journey_detail.operator %><br>
 <% end %>
 <p>
