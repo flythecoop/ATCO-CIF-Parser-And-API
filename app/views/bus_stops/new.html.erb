@@ -1,0 +1,31 @@
+<h1>New bus_stop</h1>
+
+<% form_for(@bus_stop) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :ref_code %><br />
+    <%= f.text_field :ref_code %>
+  </p>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :publicity_point %><br />
+    <%= f.check_box :publicity_point %>
+  </p>
+  <p>
+    <%= f.label :working_point %><br />
+    <%= f.check_box :working_point %>
+  </p>
+  <p>
+    <%= f.label :timing_point %><br />
+    <%= f.check_box :timing_point %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', bus_stops_path %>

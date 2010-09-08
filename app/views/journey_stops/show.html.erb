@@ -1,0 +1,28 @@
+<p>
+  <b>Journey detail:</b>
+  <%=h @journey_stop.journey_detail_id %>
+</p>
+
+<p>
+  <b>Bus stop:</b>
+  <%=h @journey_stop.bus_stop %>
+</p>
+
+<p>
+  <b>Arrival:</b>
+  <%=h @journey_stop.arrival %>
+</p>
+
+<p>
+  <b>Departure:</b>
+  <%=h @journey_stop.departure %>
+</p>
+
+<p>
+  <b>Bay number:</b>
+  <%=h @journey_stop.bay_number %>
+</p>
+
+
+<%= link_to 'Edit', edit_journey_stop_path(@journey_stop) %> |
+<%= link_to 'Back', journey_stops_path %>

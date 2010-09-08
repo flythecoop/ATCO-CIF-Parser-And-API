@@ -1,0 +1,44 @@
+<h1>Editing service</h1>
+
+<% form_for(@service) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :reference %><br />
+    <%= f.text_field :reference %>
+  </p>
+  <p>
+    <%= f.label :stop_list_number %><br />
+    <%= f.text_field :stop_list_number %>
+  </p>
+  <p>
+    <%= f.label :direction %><br />
+    <%= f.text_field :direction %>
+  </p>
+  <p>
+    <%= f.label :term_start %><br />
+    <%= f.date_select :term_start %>
+  </p>
+  <p>
+    <%= f.label :term_end %><br />
+    <%= f.date_select :term_end %>
+  </p>
+  <p>
+    <%= f.label :days_of_operation %><br />
+    <%= f.text_field :days_of_operation %>
+  </p>
+  <p>
+    <%= f.label :number %><br />
+    <%= f.text_field :number %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @service %> |
+<%= link_to 'Back', services_path %>

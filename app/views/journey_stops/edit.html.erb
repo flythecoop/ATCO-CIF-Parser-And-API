@@ -1,0 +1,32 @@
+<h1>Editing journey_stop</h1>
+
+<% form_for(@journey_stop) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :journey_detail_id %><br />
+    <%= f.text_field :journey_detail_id %>
+  </p>
+  <p>
+    <%= f.label :bus_stop %><br />
+    <%= f.text_field :bus_stop %>
+  </p>
+  <p>
+    <%= f.label :arrival %><br />
+    <%= f.datetime_select :arrival %>
+  </p>
+  <p>
+    <%= f.label :departure %><br />
+    <%= f.datetime_select :departure %>
+  </p>
+  <p>
+    <%= f.label :bay_number %><br />
+    <%= f.text_field :bay_number %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @journey_stop %> |
+<%= link_to 'Back', journey_stops_path %>

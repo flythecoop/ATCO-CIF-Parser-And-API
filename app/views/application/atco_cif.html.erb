@@ -1,0 +1,26 @@
+<%= @cif_data.inspect %>
+<h1>Journeys</h1>
+
+<% @cif_data[:journeys].each do |journey| %>
+	<table width="500">
+	<tr><td colspan="99">Journey Number: <%= journey[0] %></td></tr>
+	<tr>
+		<td>Location</td>
+		<td>Record Identity</td>
+		<td>Published Departure Time</td>
+		<td>Bay Number</td>
+		<td>Fare Stage Indicator</td>
+		<td>Timing Point Indicator</td>
+	</tr>
+	<% journey[1].stops.each do |stop| %>
+		<tr><td><%= stop.location %></td>
+			<td><%= stop.record_identity %></td>
+			<td><%= stop.published_departure_time %></td>
+			<td><%= stop.bay_number %></td>
+			<td><%= stop.fare_stage_indicator %></td>
+			<td><%= stop.timing_point_indicator %></td>
+		</tr>
+	<% end %>
+	<tr><td colspan="99"><%= journey.inspect %></td></tr>
+	</table>
+<% end %>
