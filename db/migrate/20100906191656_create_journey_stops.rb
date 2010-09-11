@@ -3,7 +3,7 @@ class CreateJourneyStops < ActiveRecord::Migration
     create_table :journey_stops do |t|
       t.integer :service_id
       t.integer :journey_detail_id
-      t.integer :bus_stop_id
+      t.string :bus_stop_id
       t.time :arrival
       t.time :departure
       t.string :bay_number

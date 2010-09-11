@@ -69,7 +69,6 @@ class ApplicationController < ActionController::Base
       @path = File.expand_path(file)
       data = File.readlines(@path)
       stop_list = []
-      @record_identity = ''
     
       data.each do |line|      
         if line[0,2] == 'ZL'
@@ -87,6 +86,7 @@ class ApplicationController < ActionController::Base
           @service.number = line[10,4]
           @service.description = line[14,50]
           @service.save!
+          @bus_service = Service.find(:last)
         end
         if line[0,2] == 'ZA'
           if !stop_list.include?(line[3,12])
@@ -102,7 +102,6 @@ class ApplicationController < ActionController::Base
         end
         if line[0,2] == 'QS'
           @journey_detail = JourneyDetail.new
-          @bus_service = Service.find(:last)
           @journey_detail.service_id = @bus_service.id
           @journey_detail.operator = line[3,4]
           @journey_detail.journey_identifier = line[7,6]
@@ -122,30 +121,26 @@ class ApplicationController < ActionController::Base
         if line[0,2] == 'ZN'
           @journey_detail.journey_note = line[7,72]
           @journey_detail.save!
+          @detail = JourneyDetail.find(:last)
         end
         if line[0,2] == 'QO' && @previous_record_identity == 'ZJ' # if there is no Note Record (ZN) save the @journey_detail
           @journey_detail.save!
+          @detail = JourneyDetail.find(:last)
         end
         if line[0,2] == 'QO'
           @journey_stop = JourneyStop.new
-          @bus_service = Service.find(:last)
           @journey_stop.service_id = @bus_service.id
-          @detail = JourneyDetail.find(:last)
           @journey_stop.journey_detail_id = @detail.id
-          @stop = BusStop.find_by_ref_code(line[2,12])
-          @journey_stop.bus_stop_id = @stop.id
+          @journey_stop.bus_stop_id = line[2,12]
           @journey_stop.departure = "#{line[14,2]}:#{line[16,2]}:00"
           @journey_stop.bay_number = line[18,3]
           @journey_stop.save!
           #logger.info("--- Journey Time: #{@journey_stop.inspect}")
         elsif line[0,2] == 'QI'
           @journey_stop = JourneyStop.new
-          @bus_service = Service.find(:last)
           @journey_stop.service_id = @bus_service.id
-          @detail = JourneyDetail.find(:last)
           @journey_stop.journey_detail_id = @detail.id
-          @stop = BusStop.find_by_ref_code(line[2,12])
-          @journey_stop.bus_stop_id = @stop.id
+          @journey_stop.bus_stop_id = line[2,12]
           @journey_stop.arrival = "#{line[14,2]}:#{line[16,2]}:00"
           @journey_stop.departure = "#{line[18,2]}:#{line[20,2]}:00"
           @journey_stop.bay_number = line[23,3]
@@ -153,12 +148,9 @@ class ApplicationController < ActionController::Base
           #logger.info("--- Journey Time: #{@journey_stop.inspect}")
         elsif line[0,2] == 'QT'
           @journey_stop = JourneyStop.new
-          @bus_service = Service.find(:last)
           @journey_stop.service_id = @bus_service.id
-          @detail = JourneyDetail.find(:last)
           @journey_stop.journey_detail_id = @detail.id
-          @stop = BusStop.find_by_ref_code(line[2,12])
-          @journey_stop.bus_stop_id = @stop.id
+          @journey_stop.bus_stop_id = line[2,12]
           @journey_stop.arrival = "#{line[14,2]}:#{line[16,2]}:00"
           @journey_stop.bay_number = line[18,3]
           @journey_stop.save!

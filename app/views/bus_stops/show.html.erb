@@ -1,7 +1,12 @@
 <h1><%= @bus_stop.name %></h1>
+<h2><%= params[:service] %></h2>
+
+<% @services_at_bus_stop.group_by(&:number).each do |n,s| %>
+	<%= n %><br>
+<% end %>
 
 <p>TIMES<br>
 <% @times.each do |t| %>
-	<%= t.departure.strftime("%H:%M") unless !t.departure %>, <%= t.journey_detail.operator %><br>
+	<%= t.departure.strftime("%H:%M") unless !t.departure %>, <%= t.journey_detail.operator %><%= '('+t.journey_detail.journey_note+')' if t.journey_detail.journey_note %><br>
 <% end %>
 <p>

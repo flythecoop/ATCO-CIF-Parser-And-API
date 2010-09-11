@@ -2,7 +2,9 @@ class ServicesController < ApplicationController
   # GET /services
   # GET /services.xml
   def index
-    @services = Service.all
+    #@services = Service.all
+    @ind_services = Service.find(:all, :group => 'number, reference', :order => 'created_at')
+    @files = Dir.glob('public/cif/*')
 
     respond_to do |format|
       format.html # index.html.erb

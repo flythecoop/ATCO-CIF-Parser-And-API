@@ -1,34 +1,15 @@
 <h1>Listing services</h1>
 
-<table>
-  <tr>
-    <th>Reference</th>
-    <th>Stop list number</th>
-    <th>Direction</th>
-    <th>Term start</th>
-    <th>Term end</th>
-    <th>Days of operation</th>
-    <th>Number</th>
-    <th>Description</th>
-  </tr>
-
-<% @services.each do |service| %>
-  <tr>
-    <td><%=h service.reference %></td>
-    <td><%=h service.stop_list_number %></td>
-    <td><%=h service.direction %></td>
-    <td><%=h service.term_start %></td>
-    <td><%=h service.term_end %></td>
-    <td><%=h service.days_of_operation %></td>
-    <td><%=h service.number %></td>
-    <td><%=h service.description %></td>
-    <td><%= link_to 'Show', service %></td>
-    <td><%= link_to 'Edit', edit_service_path(service) %></td>
-    <td><%= link_to 'Destroy', service, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
+<div style="width:50px;float:left">
+<% @ind_services.each do |s| %>
+	<%= s.number %><br>
 <% end %>
-</table>
-
-<br />
-
-<%= link_to 'New service', new_service_path %>
+</div>
+<div style="width:250px;float:left">
+<% @files.each do |file| %>
+	<%= file %><br>
+<% end %>
+</div>
+<div>
+Total: <%= @ind_services.size %>
+</div>
