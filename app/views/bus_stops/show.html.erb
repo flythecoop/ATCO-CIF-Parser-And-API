@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Location reference:</b>
+  <%= @bus_stop.location_reference %>
+</p>
+
+<p>
+  <b>Full location:</b>
+  <%= @bus_stop.full_location %>
+</p>
+
+<p>
+  <b>Publicity point flag:</b>
+  <%= @bus_stop.publicity_point_flag %>
+</p>
+
+<p>
+  <b>Working point flag:</b>
+  <%= @bus_stop.working_point_flag %>
+</p>
+
+<p>
+  <b>Timing point flag:</b>
+  <%= @bus_stop.timing_point_flag %>
+</p>
+
+
+<%= link_to 'Edit', edit_bus_stop_path(@bus_stop) %> |
+<%= link_to 'Back', bus_stops_path %>

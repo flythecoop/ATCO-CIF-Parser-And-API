@@ -1,0 +1,33 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  service_id: 1
+  operator: MyString
+  unique_journey_identifier: MyString
+  monday: false
+  tuesday: false
+  wednesday: false
+  thursday: false
+  friday: false
+  saturday: false
+  sunday: false
+  school_term_time: MyString
+  bank_holiday: MyString
+  tendered_commercial: MyString
+  note_text: MyString
+
+two:
+  service_id: 1
+  operator: MyString
+  unique_journey_identifier: MyString
+  monday: false
+  tuesday: false
+  wednesday: false
+  thursday: false
+  friday: false
+  saturday: false
+  sunday: false
+  school_term_time: MyString
+  bank_holiday: MyString
+  tendered_commercial: MyString
+  note_text: MyString

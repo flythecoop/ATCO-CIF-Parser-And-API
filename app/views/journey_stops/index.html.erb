@@ -1,0 +1,33 @@
+<h1>Listing journey_stops</h1>
+
+<table>
+  <tr>
+    <th>Service</th>
+    <th>Journey detail</th>
+    <th>Location</th>
+    <th>Published arrival time</th>
+    <th>Published departure time</th>
+    <th>Bay number</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @journey_stops.each do |journey_stop| %>
+  <tr>
+    <td><%= journey_stop.service_id %></td>
+    <td><%= journey_stop.journey_detail_id %></td>
+    <td><%= journey_stop.location %></td>
+    <td><%= journey_stop.published_arrival_time %></td>
+    <td><%= journey_stop.published_departure_time %></td>
+    <td><%= journey_stop.bay_number %></td>
+    <td><%= link_to 'Show', journey_stop %></td>
+    <td><%= link_to 'Edit', edit_journey_stop_path(journey_stop) %></td>
+    <td><%= link_to 'Destroy', journey_stop, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Journey stop', new_journey_stop_path %>

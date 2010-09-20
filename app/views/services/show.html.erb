@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Service reference:</b>
+  <%= @service.service_reference %>
+</p>
+
+<p>
+  <b>Stop list number:</b>
+  <%= @service.stop_list_number %>
+</p>
+
+<p>
+  <b>Direction of travel:</b>
+  <%= @service.direction_of_travel %>
+</p>
+
+<p>
+  <b>Start date:</b>
+  <%= @service.start_date %>
+</p>
+
+<p>
+  <b>Last date:</b>
+  <%= @service.last_date %>
+</p>
+
+<p>
+  <b>Days of operation:</b>
+  <%= @service.days_of_operation %>
+</p>
+
+<p>
+  <b>Service number:</b>
+  <%= @service.service_number %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @service.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_service_path(@service) %> |
+<%= link_to 'Back', services_path %>

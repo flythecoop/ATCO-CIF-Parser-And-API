@@ -1,0 +1,73 @@
+<%= form_for(@journey_detail) do |f| %>
+  <% if @journey_detail.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@journey_detail.errors.count, "error") %> prohibited this journey_detail from being saved:</h2>
+
+      <ul>
+      <% @journey_detail.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :service_id %><br />
+    <%= f.text_field :service_id %>
+  </div>
+  <div class="field">
+    <%= f.label :operator %><br />
+    <%= f.text_field :operator %>
+  </div>
+  <div class="field">
+    <%= f.label :unique_journey_identifier %><br />
+    <%= f.text_field :unique_journey_identifier %>
+  </div>
+  <div class="field">
+    <%= f.label :monday %><br />
+    <%= f.check_box :monday %>
+  </div>
+  <div class="field">
+    <%= f.label :tuesday %><br />
+    <%= f.check_box :tuesday %>
+  </div>
+  <div class="field">
+    <%= f.label :wednesday %><br />
+    <%= f.check_box :wednesday %>
+  </div>
+  <div class="field">
+    <%= f.label :thursday %><br />
+    <%= f.check_box :thursday %>
+  </div>
+  <div class="field">
+    <%= f.label :friday %><br />
+    <%= f.check_box :friday %>
+  </div>
+  <div class="field">
+    <%= f.label :saturday %><br />
+    <%= f.check_box :saturday %>
+  </div>
+  <div class="field">
+    <%= f.label :sunday %><br />
+    <%= f.check_box :sunday %>
+  </div>
+  <div class="field">
+    <%= f.label :school_term_time %><br />
+    <%= f.text_field :school_term_time %>
+  </div>
+  <div class="field">
+    <%= f.label :bank_holiday %><br />
+    <%= f.text_field :bank_holiday %>
+  </div>
+  <div class="field">
+    <%= f.label :tendered_commercial %><br />
+    <%= f.text_field :tendered_commercial %>
+  </div>
+  <div class="field">
+    <%= f.label :note_text %><br />
+    <%= f.text_field :note_text %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,31 @@
+<h1>Listing bus_stops</h1>
+
+<table>
+  <tr>
+    <th>Location reference</th>
+    <th>Full location</th>
+    <th>Publicity point flag</th>
+    <th>Working point flag</th>
+    <th>Timing point flag</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @bus_stops.each do |bus_stop| %>
+  <tr>
+    <td><%= bus_stop.location_reference %></td>
+    <td><%= bus_stop.full_location %></td>
+    <td><%= bus_stop.publicity_point_flag %></td>
+    <td><%= bus_stop.working_point_flag %></td>
+    <td><%= bus_stop.timing_point_flag %></td>
+    <td><%= link_to 'Show', bus_stop %></td>
+    <td><%= link_to 'Edit', edit_bus_stop_path(bus_stop) %></td>
+    <td><%= link_to 'Destroy', bus_stop, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Bus stop', new_bus_stop_path %>

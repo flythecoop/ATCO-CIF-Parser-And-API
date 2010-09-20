@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Service:</b>
+  <%= @journey_stop.service_id %>
+</p>
+
+<p>
+  <b>Journey detail:</b>
+  <%= @journey_stop.journey_detail_id %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @journey_stop.location %>
+</p>
+
+<p>
+  <b>Published arrival time:</b>
+  <%= @journey_stop.published_arrival_time %>
+</p>
+
+<p>
+  <b>Published departure time:</b>
+  <%= @journey_stop.published_departure_time %>
+</p>
+
+<p>
+  <b>Bay number:</b>
+  <%= @journey_stop.bay_number %>
+</p>
+
+
+<%= link_to 'Edit', edit_journey_stop_path(@journey_stop) %> |
+<%= link_to 'Back', journey_stops_path %>

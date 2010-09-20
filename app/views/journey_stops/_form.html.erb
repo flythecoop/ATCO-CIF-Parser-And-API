@@ -1,0 +1,41 @@
+<%= form_for(@journey_stop) do |f| %>
+  <% if @journey_stop.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@journey_stop.errors.count, "error") %> prohibited this journey_stop from being saved:</h2>
+
+      <ul>
+      <% @journey_stop.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :service_id %><br />
+    <%= f.text_field :service_id %>
+  </div>
+  <div class="field">
+    <%= f.label :journey_detail_id %><br />
+    <%= f.text_field :journey_detail_id %>
+  </div>
+  <div class="field">
+    <%= f.label :location %><br />
+    <%= f.text_field :location %>
+  </div>
+  <div class="field">
+    <%= f.label :published_arrival_time %><br />
+    <%= f.time_select :published_arrival_time %>
+  </div>
+  <div class="field">
+    <%= f.label :published_departure_time %><br />
+    <%= f.time_select :published_departure_time %>
+  </div>
+  <div class="field">
+    <%= f.label :bay_number %><br />
+    <%= f.text_field :bay_number %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

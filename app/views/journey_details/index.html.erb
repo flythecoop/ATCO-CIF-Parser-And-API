@@ -1,0 +1,49 @@
+<h1>Listing journey_details</h1>
+
+<table>
+  <tr>
+    <th>Service</th>
+    <th>Operator</th>
+    <th>Unique journey identifier</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+    <th>Saturday</th>
+    <th>Sunday</th>
+    <th>School term time</th>
+    <th>Bank holiday</th>
+    <th>Tendered commercial</th>
+    <th>Note text</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @journey_details.each do |journey_detail| %>
+  <tr>
+    <td><%= journey_detail.service_id %></td>
+    <td><%= journey_detail.operator %></td>
+    <td><%= journey_detail.unique_journey_identifier %></td>
+    <td><%= journey_detail.monday %></td>
+    <td><%= journey_detail.tuesday %></td>
+    <td><%= journey_detail.wednesday %></td>
+    <td><%= journey_detail.thursday %></td>
+    <td><%= journey_detail.friday %></td>
+    <td><%= journey_detail.saturday %></td>
+    <td><%= journey_detail.sunday %></td>
+    <td><%= journey_detail.school_term_time %></td>
+    <td><%= journey_detail.bank_holiday %></td>
+    <td><%= journey_detail.tendered_commercial %></td>
+    <td><%= journey_detail.note_text %></td>
+    <td><%= link_to 'Show', journey_detail %></td>
+    <td><%= link_to 'Edit', edit_journey_detail_path(journey_detail) %></td>
+    <td><%= link_to 'Destroy', journey_detail, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Journey detail', new_journey_detail_path %>

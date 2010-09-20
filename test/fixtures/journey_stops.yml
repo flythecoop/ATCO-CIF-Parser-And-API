@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  service_id: 1
+  journey_detail_id: 1
+  location: MyString
+  published_arrival_time: 2010-09-20 19:16:00
+  published_departure_time: 2010-09-20 19:16:00
+  bay_number: MyString
+
+two:
+  service_id: 1
+  journey_detail_id: 1
+  location: MyString
+  published_arrival_time: 2010-09-20 19:16:00
+  published_departure_time: 2010-09-20 19:16:00
+  bay_number: MyString

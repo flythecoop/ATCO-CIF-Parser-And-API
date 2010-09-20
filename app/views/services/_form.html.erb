@@ -1,0 +1,49 @@
+<%= form_for(@service) do |f| %>
+  <% if @service.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@service.errors.count, "error") %> prohibited this service from being saved:</h2>
+
+      <ul>
+      <% @service.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :service_reference %><br />
+    <%= f.text_field :service_reference %>
+  </div>
+  <div class="field">
+    <%= f.label :stop_list_number %><br />
+    <%= f.text_field :stop_list_number %>
+  </div>
+  <div class="field">
+    <%= f.label :direction_of_travel %><br />
+    <%= f.text_field :direction_of_travel %>
+  </div>
+  <div class="field">
+    <%= f.label :start_date %><br />
+    <%= f.date_select :start_date %>
+  </div>
+  <div class="field">
+    <%= f.label :last_date %><br />
+    <%= f.date_select :last_date %>
+  </div>
+  <div class="field">
+    <%= f.label :days_of_operation %><br />
+    <%= f.text_field :days_of_operation %>
+  </div>
+  <div class="field">
+    <%= f.label :service_number %><br />
+    <%= f.text_field :service_number %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

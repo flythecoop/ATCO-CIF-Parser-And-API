@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  location_reference: MyString
+  full_location: MyString
+  publicity_point_flag: false
+  working_point_flag: false
+  timing_point_flag: false
+
+two:
+  location_reference: MyString
+  full_location: MyString
+  publicity_point_flag: false
+  working_point_flag: false
+  timing_point_flag: false

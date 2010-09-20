@@ -1,0 +1,75 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Service:</b>
+  <%= @journey_detail.service_id %>
+</p>
+
+<p>
+  <b>Operator:</b>
+  <%= @journey_detail.operator %>
+</p>
+
+<p>
+  <b>Unique journey identifier:</b>
+  <%= @journey_detail.unique_journey_identifier %>
+</p>
+
+<p>
+  <b>Monday:</b>
+  <%= @journey_detail.monday %>
+</p>
+
+<p>
+  <b>Tuesday:</b>
+  <%= @journey_detail.tuesday %>
+</p>
+
+<p>
+  <b>Wednesday:</b>
+  <%= @journey_detail.wednesday %>
+</p>
+
+<p>
+  <b>Thursday:</b>
+  <%= @journey_detail.thursday %>
+</p>
+
+<p>
+  <b>Friday:</b>
+  <%= @journey_detail.friday %>
+</p>
+
+<p>
+  <b>Saturday:</b>
+  <%= @journey_detail.saturday %>
+</p>
+
+<p>
+  <b>Sunday:</b>
+  <%= @journey_detail.sunday %>
+</p>
+
+<p>
+  <b>School term time:</b>
+  <%= @journey_detail.school_term_time %>
+</p>
+
+<p>
+  <b>Bank holiday:</b>
+  <%= @journey_detail.bank_holiday %>
+</p>
+
+<p>
+  <b>Tendered commercial:</b>
+  <%= @journey_detail.tendered_commercial %>
+</p>
+
+<p>
+  <b>Note text:</b>
+  <%= @journey_detail.note_text %>
+</p>
+
+
+<%= link_to 'Edit', edit_journey_detail_path(@journey_detail) %> |
+<%= link_to 'Back', journey_details_path %>
