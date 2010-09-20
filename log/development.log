@@ -1,0 +1,1416 @@
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#show (for 127.0.0.1 at 2010-09-11 21:13:20) [GET]
+  Parameters: {"id"=>"530"}
+  [4;35;1mService Columns (28.2ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+  [4;36;1mService Load (0.6ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.`id` = 530) [0m
+Rendering template within layouts/services
+Rendering services/show
+Completed in 66ms (View: 21, DB: 29) | 200 OK [http://localhost/services/530]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#show (for 127.0.0.1 at 2010-09-11 21:16:29) [GET]
+  Parameters: {"id"=>"530"}
+  [4;36;1mService Columns (30.1ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mService Load (0.8ms)[0m   [0mSELECT * FROM `services` WHERE (`services`.`id` = 530) [0m
+Rendering template within layouts/services
+Rendering services/show
+Completed in 51ms (View: 10, DB: 31) | 200 OK [http://localhost/services/530]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#show (for 127.0.0.1 at 2010-09-11 21:16:36) [GET]
+  Parameters: {"id"=>"530"}
+  [4;35;1mService Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+  [4;36;1mService Load (0.4ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.`id` = 530) [0m
+Rendering template within layouts/services
+Rendering services/show
+Completed in 21ms (View: 10, DB: 3) | 200 OK [http://localhost/services/530]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#show (for 127.0.0.1 at 2010-09-11 21:16:38) [GET]
+  Parameters: {"id"=>"530"}
+  [4;36;1mService Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mService Load (0.4ms)[0m   [0mSELECT * FROM `services` WHERE (`services`.`id` = 530) [0m
+Rendering template within layouts/services
+Rendering services/show
+Completed in 14ms (View: 4, DB: 3) | 200 OK [http://localhost/services/530]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#show (for 127.0.0.1 at 2010-09-11 21:16:56) [GET]
+  Parameters: {"id"=>"530"}
+  [4;35;1mService Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+  [4;36;1mService Load (0.4ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.`id` = 530) [0m
+Rendering template within layouts/services
+Rendering services/show
+Completed in 22ms (View: 10, DB: 3) | 200 OK [http://localhost/services/530]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#show (for 127.0.0.1 at 2010-09-11 21:17:48) [GET]
+  Parameters: {"id"=>"535"}
+  [4;36;1mService Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mService Load (0.4ms)[0m   [0mSELECT * FROM `services` WHERE (`services`.`id` = 535) [0m
+Rendering template within layouts/services
+Rendering services/show
+Completed in 15ms (View: 4, DB: 3) | 200 OK [http://localhost/services/535]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#show (for 127.0.0.1 at 2010-09-11 21:17:57) [GET]
+  Parameters: {"id"=>"626"}
+  [4;35;1mService Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+  [4;36;1mService Load (0.5ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.`id` = 626) [0m
+Rendering template within layouts/services
+Rendering services/show
+Completed in 13ms (View: 4, DB: 3) | 200 OK [http://localhost/services/626]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#show (for 127.0.0.1 at 2010-09-11 21:18:03) [GET]
+  Parameters: {"id"=>"1414"}
+  [4;36;1mService Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mService Load (0.6ms)[0m   [0mSELECT * FROM `services` WHERE (`services`.`id` = 1414) [0m
+Rendering template within layouts/services
+Rendering services/show
+Completed in 15ms (View: 4, DB: 3) | 200 OK [http://localhost/services/1414]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#show (for 127.0.0.1 at 2010-09-11 21:18:09) [GET]
+  Parameters: {"id"=>"1447"}
+  [4;35;1mService Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+  [4;36;1mService Load (0.5ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.`id` = 1447) [0m
+Rendering template within layouts/services
+Rendering services/show
+Completed in 14ms (View: 4, DB: 3) | 200 OK [http://localhost/services/1447]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#show (for 127.0.0.1 at 2010-09-11 21:18:12) [GET]
+  Parameters: {"id"=>"1534"}
+  [4;36;1mService Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mService Load (0.5ms)[0m   [0mSELECT * FROM `services` WHERE (`services`.`id` = 1534) [0m
+Rendering template within layouts/services
+Rendering services/show
+Completed in 15ms (View: 4, DB: 3) | 200 OK [http://localhost/services/1534]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#show (for 127.0.0.1 at 2010-09-11 21:18:18) [GET]
+  Parameters: {"id"=>"2094"}
+  [4;35;1mService Columns (2.9ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+  [4;36;1mService Load (0.6ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.`id` = 2094) [0m
+Rendering template within layouts/services
+Rendering services/show
+Completed in 16ms (View: 4, DB: 4) | 200 OK [http://localhost/services/2094]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#show (for 127.0.0.1 at 2010-09-11 22:28:01) [GET]
+  Parameters: {"id"=>"3111"}
+  [4;36;1mService Columns (39.1ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mService Load (16.1ms)[0m   [0mSELECT * FROM `services` WHERE (`services`.`id` = 3111) [0m
+Rendering template within layouts/services
+Rendering services/show
+Completed in 126ms (View: 19, DB: 55) | 200 OK [http://localhost/services/3111]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#show (for 127.0.0.1 at 2010-09-11 22:28:24) [GET]
+  Parameters: {"id"=>"3100"}
+  [4;35;1mService Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+  [4;36;1mService Load (0.4ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.`id` = 3100) [0m
+Rendering template within layouts/services
+Rendering services/show
+Completed in 14ms (View: 4, DB: 3) | 200 OK [http://localhost/services/3100]
+  [4;36;1mSQL (109.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#show (for 127.0.0.1 at 2010-09-15 20:32:55) [GET]
+  Parameters: {"id"=>"560"}
+  [4;35;1mService Columns (476.8ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+  [4;36;1mService Load (36.1ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.`id` = 560) [0m
+Rendering template within layouts/services
+Rendering services/show
+Completed in 843ms (View: 262, DB: 622) | 200 OK [http://localhost/services/560]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#show to xml (for 127.0.0.1 at 2010-09-15 20:33:02) [GET]
+  Parameters: {"id"=>"560"}
+  [4;36;1mService Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mService Load (0.4ms)[0m   [0mSELECT * FROM `services` WHERE (`services`.`id` = 560) [0m
+Completed in 195ms (View: 185, DB: 3) | 200 OK [http://localhost/services/560.xml]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#show to js (for 127.0.0.1 at 2010-09-15 20:33:22) [GET]
+  Parameters: {"id"=>"560"}
+  [4;35;1mService Columns (89.6ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+  [4;36;1mService Load (0.7ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.`id` = 560) [0m
+Completed in 99ms (View: 1, DB: 90) | 406 Not Acceptable [http://localhost/services/560.js]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show to xml (for 127.0.0.1 at 2010-09-15 20:34:50) [GET]
+  Parameters: {"id"=>"1800SB04961"}
+  [4;36;1mBusStop Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `bus_stops`[0m
+  [4;35;1mBusStop Load (1.5ms)[0m   [0mSELECT * FROM `bus_stops` WHERE (`bus_stops`.`ref_code` = '1800SB04961') LIMIT 1[0m
+  [4;36;1mJourneyStop Load (15859.3ms)[0m   [0;1mSELECT * FROM `journey_stops` WHERE (bus_stop_id = '1800SB04961') GROUP BY service_id[0m
+  [4;35;1mJourneyStop Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `journey_stops`[0m
+  [4;36;1mService Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mService Load (107.5ms)[0m   [0mSELECT * FROM `services` WHERE (`services`.`id` IN (530,531,532,533,539,540,541,542,552,553,554,555,556,557,558,559,564,565,566,567,568,569,570,571,596,597,598,599,604,605,606,607,672,673,674,675,1020,1022,1046,1047,1048,1049,1054,1055,1056,1057,1442,1443,3124,3125,3126,3127,3141,3142,3143,3144,3150,3151,3152,3153,3390,3391,3392,3393,3398,3399,3400,3401,3412,3413,3414,3415,3943,3944,3945,3946,4445,4487,4731,4732,4733,4734,4735,4741,4742,4743,4744,4745,5262,5263)) [0m
+  [4;36;1mJourneyDetail Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `journey_details`[0m
+  [4;35;1mService Load Including Associations (1184.0ms)[0m   [0mSELECT `services`.`id` AS t0_r0, `services`.`reference` AS t0_r1, `services`.`stop_list_number` AS t0_r2, `services`.`direction` AS t0_r3, `services`.`term_start` AS t0_r4, `services`.`term_end` AS t0_r5, `services`.`days_of_operation` AS t0_r6, `services`.`number` AS t0_r7, `services`.`description` AS t0_r8, `services`.`created_at` AS t0_r9, `services`.`updated_at` AS t0_r10, `journey_details`.`id` AS t1_r0, `journey_details`.`service_id` AS t1_r1, `journey_details`.`operator` AS t1_r2, `journey_details`.`journey_identifier` AS t1_r3, `journey_details`.`monday` AS t1_r4, `journey_details`.`tuesday` AS t1_r5, `journey_details`.`wednesday` AS t1_r6, `journey_details`.`thursday` AS t1_r7, `journey_details`.`friday` AS t1_r8, `journey_details`.`saturday` AS t1_r9, `journey_details`.`sunday` AS t1_r10, `journey_details`.`school_term` AS t1_r11, `journey_details`.`bank_holidays` AS t1_r12, `journey_details`.`journey_type` AS t1_r13, `journey_details`.`journey_note` AS t1_r14, `journey_details`.`created_at` AS t1_r15, `journey_details`.`updated_at` AS t1_r16 FROM `services` LEFT OUTER JOIN `journey_details` ON journey_details.service_id = services.id WHERE (trim(services.number) = NULL AND services.term_start < '2010-09-15' AND (services.term_end > '2010-09-15' OR services.term_end IS NULL) AND journey_details.monday = '1') [0m
+  [4;36;1mJourneyStop Load (14510.5ms)[0m   [0;1mSELECT * FROM `journey_stops` WHERE (bus_stop_id = '1800SB04961' AND service_id IN(NULL)) [0m
+Completed in 31996ms (View: 29, DB: 31672) | 200 OK [http://localhost/bus_stops/1800SB04961.xml]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:01:54) [GET]
+  Parameters: {"id"=>"1800SB04961"}
+  [4;36;1mBusStop Columns (28.6ms)[0m   [0;1mSHOW FIELDS FROM `bus_stops`[0m
+  [4;35;1mBusStop Load (0.4ms)[0m   [0mSELECT * FROM `bus_stops` WHERE (`bus_stops`.`ref_code` = '1800SB04961') LIMIT 1[0m
+  [4;36;1mJourneyStop Load (16529.9ms)[0m   [0;1mSELECT * FROM `journey_stops` WHERE (bus_stop_id = '1800SB04961') GROUP BY service_id[0m
+  [4;35;1mJourneyStop Columns (170.6ms)[0m   [0mSHOW FIELDS FROM `journey_stops`[0m
+  [4;36;1mService Columns (26.9ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mService Load (267.7ms)[0m   [0mSELECT * FROM `services` WHERE (`services`.`id` IN (530,531,532,533,539,540,541,542,552,553,554,555,556,557,558,559,564,565,566,567,568,569,570,571,596,597,598,599,604,605,606,607,672,673,674,675,1020,1022,1046,1047,1048,1049,1054,1055,1056,1057,1442,1443,3124,3125,3126,3127,3141,3142,3143,3144,3150,3151,3152,3153,3390,3391,3392,3393,3398,3399,3400,3401,3412,3413,3414,3415,3943,3944,3945,3946,4445,4487,4731,4732,4733,4734,4735,4741,4742,4743,4744,4745,5262,5263)) [0m
+  [4;36;1mJourneyDetail Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `journey_details`[0m
+  [4;35;1mService Load Including Associations (973.7ms)[0m   [0mSELECT `services`.`id` AS t0_r0, `services`.`reference` AS t0_r1, `services`.`stop_list_number` AS t0_r2, `services`.`direction` AS t0_r3, `services`.`term_start` AS t0_r4, `services`.`term_end` AS t0_r5, `services`.`days_of_operation` AS t0_r6, `services`.`number` AS t0_r7, `services`.`description` AS t0_r8, `services`.`created_at` AS t0_r9, `services`.`updated_at` AS t0_r10, `journey_details`.`id` AS t1_r0, `journey_details`.`service_id` AS t1_r1, `journey_details`.`operator` AS t1_r2, `journey_details`.`journey_identifier` AS t1_r3, `journey_details`.`monday` AS t1_r4, `journey_details`.`tuesday` AS t1_r5, `journey_details`.`wednesday` AS t1_r6, `journey_details`.`thursday` AS t1_r7, `journey_details`.`friday` AS t1_r8, `journey_details`.`saturday` AS t1_r9, `journey_details`.`sunday` AS t1_r10, `journey_details`.`school_term` AS t1_r11, `journey_details`.`bank_holidays` AS t1_r12, `journey_details`.`journey_type` AS t1_r13, `journey_details`.`journey_note` AS t1_r14, `journey_details`.`created_at` AS t1_r15, `journey_details`.`updated_at` AS t1_r16 FROM `services` LEFT OUTER JOIN `journey_details` ON journey_details.service_id = services.id WHERE (trim(services.number) = NULL AND services.term_start < '2010-09-15' AND (services.term_end > '2010-09-15' OR services.term_end IS NULL) AND journey_details.monday = '1') [0m
+  [4;36;1mJourneyStop Load (20122.3ms)[0m   [0;1mSELECT * FROM `journey_stops` WHERE (bus_stop_id = '1800SB04961' AND service_id IN(NULL)) [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+Completed in 38526ms (View: 194, DB: 38123) | 200 OK [http://localhost/bus_stops/1800SB04961]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:02:36) [GET]
+  Parameters: {"id"=>"1800SB04961"}
+  [4;36;1mSQL (109.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mBusStop Columns (109.1ms)[0m   [0mSHOW FIELDS FROM `bus_stops`[0m
+
+NoMethodError (undefined method `find_first_by_ref_code' for #<Class:0x303eb90>):
+  app/controllers/bus_stops_controller.rb:16:in `show'
+
+Rendered rescues/_trace (48.4ms)
+Rendered rescues/_request_and_response (66.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:02:45) [GET]
+  Parameters: {"id"=>"1800SB04961"}
+  [4;35;1mBusStop Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `bus_stops`[0m
+  [4;36;1mBusStop Load (20.5ms)[0m   [0;1mSELECT * FROM `bus_stops` WHERE (`bus_stops`.`ref_code` = '1800SB04961') LIMIT 1[0m
+  [4;35;1mJourneyStop Load (17044.5ms)[0m   [0mSELECT * FROM `journey_stops` WHERE (bus_stop_id = '1800SB04961') GROUP BY service_id[0m
+  [4;36;1mJourneyStop Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `journey_stops`[0m
+  [4;35;1mService Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+  [4;36;1mService Load (78.9ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.`id` IN (530,531,532,533,539,540,541,542,552,553,554,555,556,557,558,559,564,565,566,567,568,569,570,571,596,597,598,599,604,605,606,607,672,673,674,675,1020,1022,1046,1047,1048,1049,1054,1055,1056,1057,1442,1443,3124,3125,3126,3127,3141,3142,3143,3144,3150,3151,3152,3153,3390,3391,3392,3393,3398,3399,3400,3401,3412,3413,3414,3415,3943,3944,3945,3946,4445,4487,4731,4732,4733,4734,4735,4741,4742,4743,4744,4745,5262,5263)) [0m
+  [4;35;1mJourneyDetail Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `journey_details`[0m
+  [4;36;1mService Load Including Associations (714.9ms)[0m   [0;1mSELECT `services`.`id` AS t0_r0, `services`.`reference` AS t0_r1, `services`.`stop_list_number` AS t0_r2, `services`.`direction` AS t0_r3, `services`.`term_start` AS t0_r4, `services`.`term_end` AS t0_r5, `services`.`days_of_operation` AS t0_r6, `services`.`number` AS t0_r7, `services`.`description` AS t0_r8, `services`.`created_at` AS t0_r9, `services`.`updated_at` AS t0_r10, `journey_details`.`id` AS t1_r0, `journey_details`.`service_id` AS t1_r1, `journey_details`.`operator` AS t1_r2, `journey_details`.`journey_identifier` AS t1_r3, `journey_details`.`monday` AS t1_r4, `journey_details`.`tuesday` AS t1_r5, `journey_details`.`wednesday` AS t1_r6, `journey_details`.`thursday` AS t1_r7, `journey_details`.`friday` AS t1_r8, `journey_details`.`saturday` AS t1_r9, `journey_details`.`sunday` AS t1_r10, `journey_details`.`school_term` AS t1_r11, `journey_details`.`bank_holidays` AS t1_r12, `journey_details`.`journey_type` AS t1_r13, `journey_details`.`journey_note` AS t1_r14, `journey_details`.`created_at` AS t1_r15, `journey_details`.`updated_at` AS t1_r16 FROM `services` LEFT OUTER JOIN `journey_details` ON journey_details.service_id = services.id WHERE (trim(services.number) = NULL AND services.term_start < '2010-09-15' AND (services.term_end > '2010-09-15' OR services.term_end IS NULL) AND journey_details.monday = '1') [0m
+  [4;35;1mJourneyStop Load (14438.4ms)[0m   [0mSELECT * FROM `journey_stops` WHERE (bus_stop_id = '1800SB04961' AND service_id IN(NULL)) [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+Completed in 32429ms (View: 20, DB: 32305) | 200 OK [http://localhost/bus_stops/1800SB04961]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:06:48) [GET]
+  Parameters: {"id"=>"1800SB04961"}
+  [4;35;1mBusStop Load (12.9ms)[0m   [0mSELECT name FROM `bus_stops` WHERE (ref_code = '1800SB04961') LIMIT 1[0m
+  [4;36;1mJourneyStop Load (16082.7ms)[0m   [0;1mSELECT service_id FROM `journey_stops` WHERE (bus_stop_id = '1800SB04961') GROUP BY service_id[0m
+  [4;35;1mJourneyStop Columns (136.6ms)[0m   [0mSHOW FIELDS FROM `journey_stops`[0m
+  [4;36;1mService Columns (167.3ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mService Load (218.5ms)[0m   [0mSELECT * FROM `services` WHERE (`services`.`id` IN (530,531,532,533,539,540,541,542,552,553,554,555,556,557,558,559,564,565,566,567,568,569,570,571,596,597,598,599,604,605,606,607,672,673,674,675,1020,1022,1046,1047,1048,1049,1054,1055,1056,1057,1442,1443,3124,3125,3126,3127,3141,3142,3143,3144,3150,3151,3152,3153,3390,3391,3392,3393,3398,3399,3400,3401,3412,3413,3414,3415,3943,3944,3945,3946,4445,4487,4731,4732,4733,4734,4735,4741,4742,4743,4744,4745,5262,5263)) [0m
+  [4;36;1mJourneyDetail Columns (23.6ms)[0m   [0;1mSHOW FIELDS FROM `journey_details`[0m
+  [4;35;1mService Load Including Associations (1533.8ms)[0m   [0mSELECT `services`.`id` AS t0_r0, `services`.`reference` AS t0_r1, `services`.`stop_list_number` AS t0_r2, `services`.`direction` AS t0_r3, `services`.`term_start` AS t0_r4, `services`.`term_end` AS t0_r5, `services`.`days_of_operation` AS t0_r6, `services`.`number` AS t0_r7, `services`.`description` AS t0_r8, `services`.`created_at` AS t0_r9, `services`.`updated_at` AS t0_r10, `journey_details`.`id` AS t1_r0, `journey_details`.`service_id` AS t1_r1, `journey_details`.`operator` AS t1_r2, `journey_details`.`journey_identifier` AS t1_r3, `journey_details`.`monday` AS t1_r4, `journey_details`.`tuesday` AS t1_r5, `journey_details`.`wednesday` AS t1_r6, `journey_details`.`thursday` AS t1_r7, `journey_details`.`friday` AS t1_r8, `journey_details`.`saturday` AS t1_r9, `journey_details`.`sunday` AS t1_r10, `journey_details`.`school_term` AS t1_r11, `journey_details`.`bank_holidays` AS t1_r12, `journey_details`.`journey_type` AS t1_r13, `journey_details`.`journey_note` AS t1_r14, `journey_details`.`created_at` AS t1_r15, `journey_details`.`updated_at` AS t1_r16 FROM `services` LEFT OUTER JOIN `journey_details` ON journey_details.service_id = services.id WHERE (trim(services.number) = NULL AND services.term_start < '2010-09-15' AND (services.term_end > '2010-09-15' OR services.term_end IS NULL) AND journey_details.monday = '1') [0m
+  [4;36;1mJourneyStop Load (16994.4ms)[0m   [0;1mSELECT * FROM `journey_stops` WHERE (bus_stop_id = '1800SB04961' AND service_id IN(NULL)) [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+  [4;35;1mBusStop Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `bus_stops`[0m
+Completed in 35303ms (View: 45, DB: 35172) | 200 OK [http://localhost/bus_stops/1800SB04961]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:08:43) [GET]
+  Parameters: {"service"=>"101", "id"=>"1800SB04961"}
+  [4;35;1mBusStop Load (92.5ms)[0m   [0mSELECT name FROM `bus_stops` WHERE (ref_code = '1800SB04961') LIMIT 1[0m
+  [4;36;1mJourneyStop Load (13725.6ms)[0m   [0;1mSELECT service_id FROM `journey_stops` WHERE (bus_stop_id = '1800SB04961') GROUP BY service_id[0m
+  [4;35;1mJourneyStop Columns (75.8ms)[0m   [0mSHOW FIELDS FROM `journey_stops`[0m
+  [4;36;1mService Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mService Load (62.8ms)[0m   [0mSELECT * FROM `services` WHERE (`services`.`id` IN (530,531,532,533,539,540,541,542,552,553,554,555,556,557,558,559,564,565,566,567,568,569,570,571,596,597,598,599,604,605,606,607,672,673,674,675,1020,1022,1046,1047,1048,1049,1054,1055,1056,1057,1442,1443,3124,3125,3126,3127,3141,3142,3143,3144,3150,3151,3152,3153,3390,3391,3392,3393,3398,3399,3400,3401,3412,3413,3414,3415,3943,3944,3945,3946,4445,4487,4731,4732,4733,4734,4735,4741,4742,4743,4744,4745,5262,5263)) [0m
+  [4;36;1mJourneyDetail Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `journey_details`[0m
+  [4;35;1mService Load Including Associations (615.3ms)[0m   [0mSELECT `services`.`id` AS t0_r0, `services`.`reference` AS t0_r1, `services`.`stop_list_number` AS t0_r2, `services`.`direction` AS t0_r3, `services`.`term_start` AS t0_r4, `services`.`term_end` AS t0_r5, `services`.`days_of_operation` AS t0_r6, `services`.`number` AS t0_r7, `services`.`description` AS t0_r8, `services`.`created_at` AS t0_r9, `services`.`updated_at` AS t0_r10, `journey_details`.`id` AS t1_r0, `journey_details`.`service_id` AS t1_r1, `journey_details`.`operator` AS t1_r2, `journey_details`.`journey_identifier` AS t1_r3, `journey_details`.`monday` AS t1_r4, `journey_details`.`tuesday` AS t1_r5, `journey_details`.`wednesday` AS t1_r6, `journey_details`.`thursday` AS t1_r7, `journey_details`.`friday` AS t1_r8, `journey_details`.`saturday` AS t1_r9, `journey_details`.`sunday` AS t1_r10, `journey_details`.`school_term` AS t1_r11, `journey_details`.`bank_holidays` AS t1_r12, `journey_details`.`journey_type` AS t1_r13, `journey_details`.`journey_note` AS t1_r14, `journey_details`.`created_at` AS t1_r15, `journey_details`.`updated_at` AS t1_r16 FROM `services` LEFT OUTER JOIN `journey_details` ON journey_details.service_id = services.id WHERE (trim(services.number) = '101' AND services.term_start < '2010-09-15' AND (services.term_end > '2010-09-15' OR services.term_end IS NULL) AND journey_details.monday = '1') [0m
+  [4;36;1mJourneyStop Load (14314.8ms)[0m   [0;1mSELECT * FROM `journey_stops` WHERE (bus_stop_id = '1800SB04961' AND service_id IN(539,543,544)) [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+  [4;35;1mBusStop Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `bus_stops`[0m
+  [4;36;1mJourneyDetail Load (0.8ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5389) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5390) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5391) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5392) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5393) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5394) [0m
+  [4;36;1mJourneyDetail Load (0.5ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5395) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5396) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5397) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5398) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5399) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5400) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5401) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5402) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5403) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5404) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5405) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5406) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5407) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5408) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5409) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5410) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5411) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5412) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5413) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5414) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5415) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5416) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5417) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5418) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5419) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5420) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5421) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5422) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5423) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5424) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5425) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5426) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5427) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5428) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5429) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5430) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5431) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5432) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5433) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5434) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5435) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5436) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5437) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5438) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5439) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5440) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5441) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5442) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5443) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5444) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5445) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5446) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5447) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5448) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5449) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5450) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5451) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5452) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5453) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5454) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5455) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5456) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5457) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5458) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5459) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5460) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5461) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5462) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5463) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5464) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5465) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5466) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5467) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5468) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5469) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5470) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5471) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5472) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5473) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5474) [0m
+Completed in 29205ms (View: 98, DB: 28918) | 200 OK [http://localhost/bus_stops/1800SB04961/?service=101]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:10:36) [GET]
+  Parameters: {"service"=>"101", "id"=>"1800SB04961"}
+  [4;35;1mBusStop Load (0.7ms)[0m   [0mSELECT name FROM `bus_stops` WHERE (ref_code = '1800SB04961') LIMIT 1[0m
+  [4;36;1mService Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mJourneyDetail Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `journey_details`[0m
+  [4;36;1mService Load Including Associations (643.2ms)[0m   [0;1mSELECT `services`.`id` AS t0_r0, `services`.`reference` AS t0_r1, `services`.`stop_list_number` AS t0_r2, `services`.`direction` AS t0_r3, `services`.`term_start` AS t0_r4, `services`.`term_end` AS t0_r5, `services`.`days_of_operation` AS t0_r6, `services`.`number` AS t0_r7, `services`.`description` AS t0_r8, `services`.`created_at` AS t0_r9, `services`.`updated_at` AS t0_r10, `journey_details`.`id` AS t1_r0, `journey_details`.`service_id` AS t1_r1, `journey_details`.`operator` AS t1_r2, `journey_details`.`journey_identifier` AS t1_r3, `journey_details`.`monday` AS t1_r4, `journey_details`.`tuesday` AS t1_r5, `journey_details`.`wednesday` AS t1_r6, `journey_details`.`thursday` AS t1_r7, `journey_details`.`friday` AS t1_r8, `journey_details`.`saturday` AS t1_r9, `journey_details`.`sunday` AS t1_r10, `journey_details`.`school_term` AS t1_r11, `journey_details`.`bank_holidays` AS t1_r12, `journey_details`.`journey_type` AS t1_r13, `journey_details`.`journey_note` AS t1_r14, `journey_details`.`created_at` AS t1_r15, `journey_details`.`updated_at` AS t1_r16 FROM `services` LEFT OUTER JOIN `journey_details` ON journey_details.service_id = services.id WHERE (trim(services.number) = '101' AND services.term_start < '2010-09-15' AND (services.term_end > '2010-09-15' OR services.term_end IS NULL) AND journey_details.monday = '1') [0m
+  [4;35;1mJourneyStop Load (14045.1ms)[0m   [0mSELECT * FROM `journey_stops` WHERE (bus_stop_id = '1800SB04961' AND service_id IN(539,543,544)) [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+  [4;36;1mBusStop Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `bus_stops`[0m
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.group_by) on line #4 of app/views/bus_stops/show.html.erb:
+1: <h1><%= @bus_stop.name %></h1>
+2: <h2><%= params[:service] %></h2>
+3: 
+4: <% @services_at_bus_stop.group_by(&:number).each do |n,s| %>
+5: 	<%= n %><br>
+6: <% end %>
+7: 
+
+    app/views/bus_stops/show.html.erb:4
+    app/controllers/bus_stops_controller.rb:31:in `show'
+
+Rendered rescues/_trace (59.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:11:51) [GET]
+  Parameters: {"service"=>"101", "id"=>"1800SB04961"}
+  [4;36;1mBusStop Load (0.7ms)[0m   [0;1mSELECT name FROM `bus_stops` WHERE (ref_code = '1800SB04961') LIMIT 1[0m
+  [4;35;1mService Columns (26.4ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+  [4;36;1mJourneyDetail Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `journey_details`[0m
+  [4;35;1mService Load Including Associations (737.3ms)[0m   [0mSELECT `services`.`id` AS t0_r0, `services`.`reference` AS t0_r1, `services`.`stop_list_number` AS t0_r2, `services`.`direction` AS t0_r3, `services`.`term_start` AS t0_r4, `services`.`term_end` AS t0_r5, `services`.`days_of_operation` AS t0_r6, `services`.`number` AS t0_r7, `services`.`description` AS t0_r8, `services`.`created_at` AS t0_r9, `services`.`updated_at` AS t0_r10, `journey_details`.`id` AS t1_r0, `journey_details`.`service_id` AS t1_r1, `journey_details`.`operator` AS t1_r2, `journey_details`.`journey_identifier` AS t1_r3, `journey_details`.`monday` AS t1_r4, `journey_details`.`tuesday` AS t1_r5, `journey_details`.`wednesday` AS t1_r6, `journey_details`.`thursday` AS t1_r7, `journey_details`.`friday` AS t1_r8, `journey_details`.`saturday` AS t1_r9, `journey_details`.`sunday` AS t1_r10, `journey_details`.`school_term` AS t1_r11, `journey_details`.`bank_holidays` AS t1_r12, `journey_details`.`journey_type` AS t1_r13, `journey_details`.`journey_note` AS t1_r14, `journey_details`.`created_at` AS t1_r15, `journey_details`.`updated_at` AS t1_r16 FROM `services` LEFT OUTER JOIN `journey_details` ON journey_details.service_id = services.id WHERE (trim(services.number) = '101' AND services.term_start < '2010-09-15' AND (services.term_end > '2010-09-15' OR services.term_end IS NULL) AND journey_details.monday = '1') [0m
+  [4;36;1mJourneyStop Load (23061.4ms)[0m   [0;1mSELECT * FROM `journey_stops` WHERE (bus_stop_id = '1800SB04961' AND service_id IN(539,543,544)) [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+  [4;35;1mBusStop Columns (14.3ms)[0m   [0mSHOW FIELDS FROM `bus_stops`[0m
+  [4;36;1mJourneyStop Columns (14.8ms)[0m   [0;1mSHOW FIELDS FROM `journey_stops`[0m
+  [4;35;1mJourneyDetail Load (8.5ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5389) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5390) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5391) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5392) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5393) [0m
+  [4;36;1mJourneyDetail Load (0.5ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5394) [0m
+  [4;35;1mJourneyDetail Load (0.7ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5395) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5396) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5397) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5398) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5399) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5400) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5401) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5402) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5403) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5404) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5405) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5406) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5407) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5408) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5409) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5410) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5411) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5412) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5413) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5414) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5415) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5416) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5417) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5418) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5419) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5420) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5421) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5422) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5423) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5424) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5425) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5426) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5427) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5428) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5429) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5430) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5431) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5432) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5433) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5434) [0m
+  [4;35;1mJourneyDetail Load (0.5ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5435) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5436) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5437) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5438) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5439) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5440) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5441) [0m
+  [4;36;1mJourneyDetail Load (0.7ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5442) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5443) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5444) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5445) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5446) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5447) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5448) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5449) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5450) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5451) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5452) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5453) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5454) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5455) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5456) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5457) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5458) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5459) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5460) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5461) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5462) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5463) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5464) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5465) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5466) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5467) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5468) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5469) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5470) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5471) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5472) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5473) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 5474) [0m
+Completed in 24149ms (View: 177, DB: 23890) | 200 OK [http://localhost/bus_stops/1800SB04961/?service=101]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:12:34) [GET]
+  Parameters: {"id"=>"1800SB04961"}
+  [4;36;1mBusStop Load (0.6ms)[0m   [0;1mSELECT name FROM `bus_stops` WHERE (ref_code = '1800SB04961') LIMIT 1[0m
+  [4;35;1mJourneyStop Load (13775.0ms)[0m   [0mSELECT service_id FROM `journey_stops` WHERE (bus_stop_id = '1800SB04961') GROUP BY service_id[0m
+  [4;36;1mJourneyStop Columns (30.1ms)[0m   [0;1mSHOW FIELDS FROM `journey_stops`[0m
+  [4;35;1mService Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+  [4;36;1mService Load (57.8ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.`id` IN (530,531,532,533,539,540,541,542,552,553,554,555,556,557,558,559,564,565,566,567,568,569,570,571,596,597,598,599,604,605,606,607,672,673,674,675,1020,1022,1046,1047,1048,1049,1054,1055,1056,1057,1442,1443,3124,3125,3126,3127,3141,3142,3143,3144,3150,3151,3152,3153,3390,3391,3392,3393,3398,3399,3400,3401,3412,3413,3414,3415,3943,3944,3945,3946,4445,4487,4731,4732,4733,4734,4735,4741,4742,4743,4744,4745,5262,5263)) [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+  [4;35;1mBusStop Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `bus_stops`[0m
+Completed in 13975ms (View: 51, DB: 13868) | 200 OK [http://localhost/bus_stops/1800SB04961/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:13:42) [GET]
+  Parameters: {"id"=>"1800SB04961"}
+  [4;35;1mBusStop Load (0.6ms)[0m   [0mSELECT name FROM `bus_stops` WHERE (ref_code = '1800SB04961') LIMIT 1[0m
+  [4;36;1mJourneyStop Load (13813.6ms)[0m   [0;1mSELECT service_id FROM `journey_stops` WHERE (bus_stop_id = '1800SB04961') GROUP BY service_id[0m
+  [4;35;1mJourneyStop Columns (77.7ms)[0m   [0mSHOW FIELDS FROM `journey_stops`[0m
+  [4;36;1mService Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mService Load (0.3ms)[0m   [0mSELECT * FROM `services` WHERE (`services`.`id` = NULL) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Service with ID=#<JourneyStop:0x2e75e44>):
+  app/controllers/bus_stops_controller.rb:28:in `show'
+
+Rendered rescues/_trace (136.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:19:31) [GET]
+  Parameters: {"id"=>"1800SB04961"}
+  [4;35;1mBusStop Load (0.7ms)[0m   [0mSELECT name FROM `bus_stops` WHERE (ref_code = '1800SB04961') LIMIT 1[0m
+  [4;36;1mJourneyStop Load (13903.4ms)[0m   [0;1mSELECT service_id FROM `journey_stops` WHERE (bus_stop_id = '1800SB04961') GROUP BY service_id[0m
+  [4;35;1mJourneyStop Columns (65.5ms)[0m   [0mSHOW FIELDS FROM `journey_stops`[0m
+  [4;36;1mService Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mService Load (2.7ms)[0m   [0mSELECT * FROM `services` WHERE (`services`.`id` IN (530,531,532,533,539,540,541,542,552,553,554,555,556,557,558,559,564,565,566,567,568,569,570,571,596,597,598,599,604,605,606,607,672,673,674,675,1020,1022,1046,1047,1048,1049,1054,1055,1056,1057,1442,1443,3124,3125,3126,3127,3141,3142,3143,3144,3150,3151,3152,3153,3390,3391,3392,3393,3398,3399,3400,3401,3412,3413,3414,3415,3943,3944,3945,3946,4445,4487,4731,4732,4733,4734,4735,4741,4742,4743,4744,4745,5262,5263)) [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+  [4;36;1mBusStop Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `bus_stops`[0m
+Completed in 14068ms (View: 44, DB: 13977) | 200 OK [http://localhost/bus_stops/1800SB04961/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:23:07) [GET]
+  Parameters: {"id"=>"1800SB04961"}
+  [4;36;1mBusStop Load (0.7ms)[0m   [0;1mSELECT name FROM `bus_stops` WHERE (ref_code = '1800SB04961') LIMIT 1[0m
+  [4;35;1mJourneyStop Load (12907.0ms)[0m   [0mSELECT service_id FROM `journey_stops` WHERE (bus_stop_id = '1800SB04961') GROUP BY service_id[0m
+  [4;36;1mJourneyStop Columns (63.9ms)[0m   [0;1mSHOW FIELDS FROM `journey_stops`[0m
+  [4;35;1mService Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+  [4;36;1mService Load (2.6ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.`id` IN (530,531,532,533,539,540,541,542,552,553,554,555,556,557,558,559,564,565,566,567,568,569,570,571,596,597,598,599,604,605,606,607,672,673,674,675,1020,1022,1046,1047,1048,1049,1054,1055,1056,1057,1442,1443,3124,3125,3126,3127,3141,3142,3143,3144,3150,3151,3152,3153,3390,3391,3392,3393,3398,3399,3400,3401,3412,3413,3414,3415,3943,3944,3945,3946,4445,4487,4731,4732,4733,4734,4735,4741,4742,4743,4744,4745,5262,5263)) [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+  [4;35;1mBusStop Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `bus_stops`[0m
+
+ActionView::TemplateError (bus_stop_url failed to generate from {:controller=>"bus_stops", :id=>#<BusStop name: "Princess Street/Hart Street (Stop SM)           ">, :action=>"show"}, expected: {:controller=>"bus_stops", :action=>"show"}, diff: {:id=>#<BusStop name: "Princess Street/Hart Street (Stop SM)           ">}) on line #12 of app/views/bus_stops/show.html.erb:
+9: 	<p>
+10: <% else %>
+11: 	<% @services_at_bus_stop.group_by(&:number).each do |n,s| %>
+12: 		<%= link_to n, @bus_stop, :service => n %><br>
+13: 	<% end %>
+14: <% end %>
+
+    (eval):16:in `bus_stop_path'
+    app/views/bus_stops/show.html.erb:12
+    app/views/bus_stops/show.html.erb:11
+    app/controllers/bus_stops_controller.rb:31:in `show'
+
+Rendered rescues/_trace (68.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:25:53) [GET]
+  Parameters: {"id"=>"1800SB04961"}
+  [4;35;1mBusStop Load (0.7ms)[0m   [0mSELECT name, ref_code FROM `bus_stops` WHERE (ref_code = '1800SB04961') LIMIT 1[0m
+  [4;36;1mJourneyStop Load (12969.4ms)[0m   [0;1mSELECT service_id FROM `journey_stops` WHERE (bus_stop_id = '1800SB04961') GROUP BY service_id[0m
+  [4;35;1mJourneyStop Columns (67.1ms)[0m   [0mSHOW FIELDS FROM `journey_stops`[0m
+  [4;36;1mService Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mService Load (2.7ms)[0m   [0mSELECT * FROM `services` WHERE (`services`.`id` IN (530,531,532,533,539,540,541,542,552,553,554,555,556,557,558,559,564,565,566,567,568,569,570,571,596,597,598,599,604,605,606,607,672,673,674,675,1020,1022,1046,1047,1048,1049,1054,1055,1056,1057,1442,1443,3124,3125,3126,3127,3141,3142,3143,3144,3150,3151,3152,3153,3390,3391,3392,3393,3398,3399,3400,3401,3412,3413,3414,3415,3943,3944,3945,3946,4445,4487,4731,4732,4733,4734,4735,4741,4742,4743,4744,4745,5262,5263)) [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+  [4;36;1mBusStop Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `bus_stops`[0m
+
+ActionView::TemplateError (bus_stop_url failed to generate from {:controller=>"bus_stops", :id=>#<BusStop ref_code: "1800SB04961 ", name: "Princess Street/Hart Street (Stop SM)           ">, :action=>"show"}, expected: {:controller=>"bus_stops", :action=>"show"}, diff: {:id=>#<BusStop ref_code: "1800SB04961 ", name: "Princess Street/Hart Street (Stop SM)           ">}) on line #12 of app/views/bus_stops/show.html.erb:
+9: 	<p>
+10: <% else %>
+11: 	<% @services_at_bus_stop.group_by(&:number).each do |n,s| %>
+12: 		<%= link_to n, @bus_stop, :service => n %><br>
+13: 	<% end %>
+14: <% end %>
+
+    (eval):16:in `bus_stop_path'
+    app/views/bus_stops/show.html.erb:12
+    app/views/bus_stops/show.html.erb:11
+    app/controllers/bus_stops_controller.rb:31:in `show'
+
+Rendered rescues/_trace (68.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:28:52) [GET]
+  Parameters: {"id"=>"1800SB04961"}
+  [4;36;1mBusStop Load (0.6ms)[0m   [0;1mSELECT name, ref_code FROM `bus_stops` WHERE (ref_code = '1800SB04961') LIMIT 1[0m
+  [4;35;1mJourneyStop Load (12562.0ms)[0m   [0mSELECT service_id FROM `journey_stops` WHERE (bus_stop_id = '1800SB04961') GROUP BY service_id[0m
+  [4;36;1mJourneyStop Columns (63.9ms)[0m   [0;1mSHOW FIELDS FROM `journey_stops`[0m
+  [4;35;1mService Columns (3.7ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+  [4;36;1mService Load (2.9ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.`id` IN (530,531,532,533,539,540,541,542,552,553,554,555,556,557,558,559,564,565,566,567,568,569,570,571,596,597,598,599,604,605,606,607,672,673,674,675,1020,1022,1046,1047,1048,1049,1054,1055,1056,1057,1442,1443,3124,3125,3126,3127,3141,3142,3143,3144,3150,3151,3152,3153,3390,3391,3392,3393,3398,3399,3400,3401,3412,3413,3414,3415,3943,3944,3945,3946,4445,4487,4731,4732,4733,4734,4735,4741,4742,4743,4744,4745,5262,5263)) [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+  [4;35;1mBusStop Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `bus_stops`[0m
+Completed in 12729ms (View: 46, DB: 12635) | 200 OK [http://localhost/bus_stops/1800SB04961/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#index (for 127.0.0.1 at 2010-09-15 21:30:16) [GET]
+  Parameters: {"service"=>"  50", "id"=>"1800SB04961 "}
+  [4;35;1mBusStop Load (394.7ms)[0m   [0mSELECT * FROM `bus_stops` [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/index
+  [4;36;1mBusStop Columns (44.3ms)[0m   [0;1mSHOW FIELDS FROM `bus_stops`[0m
+Completed in 244024ms (View: 242435, DB: 439) | 200 OK [http://localhost/bus_stops?id=1800SB04961+&service=++50]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:34:20) [GET]
+  Parameters: {"id"=>"1800SB04961"}
+  [4;36;1mBusStop Load (0.5ms)[0m   [0;1mSELECT name, ref_code FROM `bus_stops` WHERE (ref_code = '1800SB04961') LIMIT 1[0m
+  [4;35;1mJourneyStop Load (13037.2ms)[0m   [0mSELECT service_id FROM `journey_stops` WHERE (bus_stop_id = '1800SB04961') GROUP BY service_id[0m
+  [4;36;1mJourneyStop Columns (65.6ms)[0m   [0;1mSHOW FIELDS FROM `journey_stops`[0m
+  [4;35;1mService Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+  [4;36;1mService Load (2.9ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.`id` IN (530,531,532,533,539,540,541,542,552,553,554,555,556,557,558,559,564,565,566,567,568,569,570,571,596,597,598,599,604,605,606,607,672,673,674,675,1020,1022,1046,1047,1048,1049,1054,1055,1056,1057,1442,1443,3124,3125,3126,3127,3141,3142,3143,3144,3150,3151,3152,3153,3390,3391,3392,3393,3398,3399,3400,3401,3412,3413,3414,3415,3943,3944,3945,3946,4445,4487,4731,4732,4733,4734,4735,4741,4742,4743,4744,4745,5262,5263)) [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+  [4;35;1mBusStop Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `bus_stops`[0m
+
+ActionView::TemplateError (bus_stop_url failed to generate from {:controller=>"bus_stops", :id=>#<BusStop ref_code: "1800SB04961 ", name: "Princess Street/Hart Street (Stop SM)           ">, :action=>"show"}, expected: {:controller=>"bus_stops", :action=>"show"}, diff: {:id=>#<BusStop ref_code: "1800SB04961 ", name: "Princess Street/Hart Street (Stop SM)           ">}) on line #12 of app/views/bus_stops/show.html.erb:
+9: 	<p>
+10: <% else %>
+11: 	<% @services_at_bus_stop.group_by(&:number).each do |n,s| %>
+12: 		<%= link_to n, @bus_stop, :id => @bus_stop.ref_code, :service => n.strip %><br>
+13: 	<% end %>
+14: <% end %>
+
+    (eval):16:in `bus_stop_path'
+    app/views/bus_stops/show.html.erb:12
+    app/views/bus_stops/show.html.erb:11
+    app/controllers/bus_stops_controller.rb:31:in `show'
+
+Rendered rescues/_trace (74.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:35:24) [GET]
+  Parameters: {"id"=>"1800SB04961"}
+  [4;35;1mBusStop Load (0.7ms)[0m   [0mSELECT name, ref_code FROM `bus_stops` WHERE (ref_code = '1800SB04961') LIMIT 1[0m
+  [4;36;1mJourneyStop Load (12684.7ms)[0m   [0;1mSELECT service_id FROM `journey_stops` WHERE (bus_stop_id = '1800SB04961') GROUP BY service_id[0m
+  [4;35;1mJourneyStop Columns (63.7ms)[0m   [0mSHOW FIELDS FROM `journey_stops`[0m
+  [4;36;1mService Columns (3.1ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mService Load (2.8ms)[0m   [0mSELECT * FROM `services` WHERE (`services`.`id` IN (530,531,532,533,539,540,541,542,552,553,554,555,556,557,558,559,564,565,566,567,568,569,570,571,596,597,598,599,604,605,606,607,672,673,674,675,1020,1022,1046,1047,1048,1049,1054,1055,1056,1057,1442,1443,3124,3125,3126,3127,3141,3142,3143,3144,3150,3151,3152,3153,3390,3391,3392,3393,3398,3399,3400,3401,3412,3413,3414,3415,3943,3944,3945,3946,4445,4487,4731,4732,4733,4734,4735,4741,4742,4743,4744,4745,5262,5263)) [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+  [4;36;1mBusStop Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `bus_stops`[0m
+Completed in 12854ms (View: 45, DB: 12757) | 200 OK [http://localhost/bus_stops/1800SB04961/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:35:46) [GET]
+  Parameters: {"service"=>"191", "id"=>"1800SB04961 "}
+  [4;36;1mBusStop Load (0.6ms)[0m   [0;1mSELECT name, ref_code FROM `bus_stops` WHERE (ref_code = '1800SB04961 ') LIMIT 1[0m
+  [4;35;1mService Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+  [4;36;1mJourneyDetail Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `journey_details`[0m
+  [4;35;1mService Load Including Associations (562.4ms)[0m   [0mSELECT `services`.`id` AS t0_r0, `services`.`reference` AS t0_r1, `services`.`stop_list_number` AS t0_r2, `services`.`direction` AS t0_r3, `services`.`term_start` AS t0_r4, `services`.`term_end` AS t0_r5, `services`.`days_of_operation` AS t0_r6, `services`.`number` AS t0_r7, `services`.`description` AS t0_r8, `services`.`created_at` AS t0_r9, `services`.`updated_at` AS t0_r10, `journey_details`.`id` AS t1_r0, `journey_details`.`service_id` AS t1_r1, `journey_details`.`operator` AS t1_r2, `journey_details`.`journey_identifier` AS t1_r3, `journey_details`.`monday` AS t1_r4, `journey_details`.`tuesday` AS t1_r5, `journey_details`.`wednesday` AS t1_r6, `journey_details`.`thursday` AS t1_r7, `journey_details`.`friday` AS t1_r8, `journey_details`.`saturday` AS t1_r9, `journey_details`.`sunday` AS t1_r10, `journey_details`.`school_term` AS t1_r11, `journey_details`.`bank_holidays` AS t1_r12, `journey_details`.`journey_type` AS t1_r13, `journey_details`.`journey_note` AS t1_r14, `journey_details`.`created_at` AS t1_r15, `journey_details`.`updated_at` AS t1_r16 FROM `services` LEFT OUTER JOIN `journey_details` ON journey_details.service_id = services.id WHERE (trim(services.number) = '191' AND services.term_start < '2010-09-15' AND (services.term_end > '2010-09-15' OR services.term_end IS NULL) AND journey_details.monday = '1') [0m
+  [4;36;1mJourneyStop Load (13502.0ms)[0m   [0;1mSELECT * FROM `journey_stops` WHERE (bus_stop_id = '1800SB04961 ' AND service_id IN(1021,1022)) [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+  [4;35;1mBusStop Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `bus_stops`[0m
+  [4;36;1mJourneyStop Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `journey_stops`[0m
+  [4;35;1mJourneyDetail Load (0.8ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 19311) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 19312) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 19313) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 19314) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 19315) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 19316) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 19317) [0m
+Completed in 14161ms (View: 14, DB: 14076) | 200 OK [http://localhost/bus_stops/1800SB04961%20?service=191]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:36:10) [GET]
+  Parameters: {"service"=>"50", "id"=>"1800SB04961 "}
+  [4;35;1mBusStop Load (0.6ms)[0m   [0mSELECT name, ref_code FROM `bus_stops` WHERE (ref_code = '1800SB04961 ') LIMIT 1[0m
+  [4;36;1mService Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mJourneyDetail Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `journey_details`[0m
+  [4;36;1mService Load Including Associations (734.4ms)[0m   [0;1mSELECT `services`.`id` AS t0_r0, `services`.`reference` AS t0_r1, `services`.`stop_list_number` AS t0_r2, `services`.`direction` AS t0_r3, `services`.`term_start` AS t0_r4, `services`.`term_end` AS t0_r5, `services`.`days_of_operation` AS t0_r6, `services`.`number` AS t0_r7, `services`.`description` AS t0_r8, `services`.`created_at` AS t0_r9, `services`.`updated_at` AS t0_r10, `journey_details`.`id` AS t1_r0, `journey_details`.`service_id` AS t1_r1, `journey_details`.`operator` AS t1_r2, `journey_details`.`journey_identifier` AS t1_r3, `journey_details`.`monday` AS t1_r4, `journey_details`.`tuesday` AS t1_r5, `journey_details`.`wednesday` AS t1_r6, `journey_details`.`thursday` AS t1_r7, `journey_details`.`friday` AS t1_r8, `journey_details`.`saturday` AS t1_r9, `journey_details`.`sunday` AS t1_r10, `journey_details`.`school_term` AS t1_r11, `journey_details`.`bank_holidays` AS t1_r12, `journey_details`.`journey_type` AS t1_r13, `journey_details`.`journey_note` AS t1_r14, `journey_details`.`created_at` AS t1_r15, `journey_details`.`updated_at` AS t1_r16 FROM `services` LEFT OUTER JOIN `journey_details` ON journey_details.service_id = services.id WHERE (trim(services.number) = '50' AND services.term_start < '2010-09-15' AND (services.term_end > '2010-09-15' OR services.term_end IS NULL) AND journey_details.monday = '1') [0m
+  [4;35;1mJourneyStop Load (13867.6ms)[0m   [0mSELECT * FROM `journey_stops` WHERE (bus_stop_id = '1800SB04961 ' AND service_id IN(3145,3146,3150)) [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+  [4;36;1mBusStop Columns (16.6ms)[0m   [0;1mSHOW FIELDS FROM `bus_stops`[0m
+  [4;35;1mJourneyStop Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `journey_stops`[0m
+  [4;36;1mJourneyDetail Load (0.7ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71133) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71134) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71135) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71136) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71137) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71139) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71141) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71143) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71145) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71147) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71149) [0m
+  [4;35;1mJourneyDetail Load (32.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71150) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71151) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71152) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71153) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71154) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71155) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71156) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71157) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71158) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71159) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71160) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71161) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71162) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71163) [0m
+  [4;35;1mJourneyDetail Load (0.5ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71164) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71165) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71166) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71167) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71168) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71169) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71170) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71171) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71172) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71173) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71174) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71175) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71176) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71177) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71178) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71179) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71180) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71181) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71182) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71183) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71184) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71185) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71186) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71187) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71188) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71189) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71190) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71191) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71192) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71193) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71194) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71195) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71196) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71197) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71198) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71199) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71200) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71201) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71202) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71203) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71204) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71205) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71206) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71207) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71208) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71209) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71210) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71211) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71212) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71213) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71214) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71215) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71216) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71217) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71218) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71219) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71220) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71221) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71222) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71223) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71224) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71225) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71226) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71227) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71228) [0m
+  [4;36;1mJourneyDetail Load (0.5ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71229) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71230) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71231) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71232) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71233) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71234) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71235) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71236) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71237) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71238) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71239) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71240) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71241) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 71242) [0m
+Completed in 14849ms (View: 77, DB: 14687) | 200 OK [http://localhost/bus_stops/1800SB04961%20?service=50]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:37:23) [GET]
+  Parameters: {"id"=>"1800WEBS001"}
+  [4;35;1mBusStop Load (0.5ms)[0m   [0mSELECT name, ref_code FROM `bus_stops` WHERE (ref_code = '1800WEBS001') LIMIT 1[0m
+  [4;36;1mJourneyStop Load (12599.3ms)[0m   [0;1mSELECT service_id FROM `journey_stops` WHERE (bus_stop_id = '1800WEBS001') GROUP BY service_id[0m
+  [4;35;1mJourneyStop Columns (70.4ms)[0m   [0mSHOW FIELDS FROM `journey_stops`[0m
+  [4;36;1mService Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mService Load (50.7ms)[0m   [0mSELECT * FROM `services` WHERE (`services`.`id` IN (530,531,532,533,534,536,537,538,539,540,541,542,543,545,546,547,548,549,550,551,552,553,554,555,556,557,558,559,560,561,562,563,564,565,566,567,568,569,570,571,572,573,574,575,576,577,578,579,580,581,582,583,584,585,586,587,1375,1376,1378,1379,1755,1756,1757,1758,1759,1760,1761,1762,1763,1764,1765,1766,1767,1768,1769,1770,1771,1772,1773,1774,1775,1776,1777,1778,3098,3099,3100,3101,3102,3103,3104,3105,3106,3107,3108,3109,3110,3111,3112,3113,3839,3840,3841,3842,3843,3844,4462,4463,4464,4465,4466,4467,4482,4483,4484,4485,4746,4747,4748,4749,4750,4751,4752,4753,5030,5031,5032,5033,5034,5035,5036,5037,5038,5039,5040,5041,5042,5043,5044,5045,5050,5051,5052,5053,5054,5055,5056,5057,5244,5245,5246,5247,5248,5249,5250,5251)) [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+  [4;36;1mBusStop Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `bus_stops`[0m
+Completed in 12806ms (View: 34, DB: 12725) | 200 OK [http://localhost/bus_stops/1800WEBS001]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:37:41) [GET]
+  Parameters: {"service"=>"43", "id"=>"1800WEBS001 "}
+  [4;36;1mBusStop Load (0.7ms)[0m   [0;1mSELECT name, ref_code FROM `bus_stops` WHERE (ref_code = '1800WEBS001 ') LIMIT 1[0m
+  [4;35;1mService Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+  [4;36;1mJourneyDetail Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `journey_details`[0m
+  [4;35;1mService Load Including Associations (566.6ms)[0m   [0mSELECT `services`.`id` AS t0_r0, `services`.`reference` AS t0_r1, `services`.`stop_list_number` AS t0_r2, `services`.`direction` AS t0_r3, `services`.`term_start` AS t0_r4, `services`.`term_end` AS t0_r5, `services`.`days_of_operation` AS t0_r6, `services`.`number` AS t0_r7, `services`.`description` AS t0_r8, `services`.`created_at` AS t0_r9, `services`.`updated_at` AS t0_r10, `journey_details`.`id` AS t1_r0, `journey_details`.`service_id` AS t1_r1, `journey_details`.`operator` AS t1_r2, `journey_details`.`journey_identifier` AS t1_r3, `journey_details`.`monday` AS t1_r4, `journey_details`.`tuesday` AS t1_r5, `journey_details`.`wednesday` AS t1_r6, `journey_details`.`thursday` AS t1_r7, `journey_details`.`friday` AS t1_r8, `journey_details`.`saturday` AS t1_r9, `journey_details`.`sunday` AS t1_r10, `journey_details`.`school_term` AS t1_r11, `journey_details`.`bank_holidays` AS t1_r12, `journey_details`.`journey_type` AS t1_r13, `journey_details`.`journey_note` AS t1_r14, `journey_details`.`created_at` AS t1_r15, `journey_details`.`updated_at` AS t1_r16 FROM `services` LEFT OUTER JOIN `journey_details` ON journey_details.service_id = services.id WHERE (trim(services.number) = '43' AND services.term_start < '2010-09-15' AND (services.term_end > '2010-09-15' OR services.term_end IS NULL) AND journey_details.monday = '1') [0m
+  [4;36;1mJourneyStop Load (13098.9ms)[0m   [0;1mSELECT * FROM `journey_stops` WHERE (bus_stop_id = '1800WEBS001 ' AND service_id IN(3106,3110,5244,5248)) [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+  [4;35;1mBusStop Columns (7.7ms)[0m   [0mSHOW FIELDS FROM `bus_stops`[0m
+  [4;36;1mJourneyStop Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `journey_stops`[0m
+  [4;35;1mJourneyDetail Load (0.7ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69205) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69206) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69207) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69208) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69209) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69210) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69211) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69212) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69213) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69214) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69215) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69216) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69217) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69218) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69219) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69220) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69221) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69222) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69223) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69224) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69225) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69226) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69227) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69228) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69229) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69230) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69231) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69232) [0m
+  [4;35;1mJourneyDetail Load (0.5ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69233) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69234) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69235) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69236) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69237) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69238) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69239) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69240) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69241) [0m
+  [4;36;1mJourneyDetail Load (5.5ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69242) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69243) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69244) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69245) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69246) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69247) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69248) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69249) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69250) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69251) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69252) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69253) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69254) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69255) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69256) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69257) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69258) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69259) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69260) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69261) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69262) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69263) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69264) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69265) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69266) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69267) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69268) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69269) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69270) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69271) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69272) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69273) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69274) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69275) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69276) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69277) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69278) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69279) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69280) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69281) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69282) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69283) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69284) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69285) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69286) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69287) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69288) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69289) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69290) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69291) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69470) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69471) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69472) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69473) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69474) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69475) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69476) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69477) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69478) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69479) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69480) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69481) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69482) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69483) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69484) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69485) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69486) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69487) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69488) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69489) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69490) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69491) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69492) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69493) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69494) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69495) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69496) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69497) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69498) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69499) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69500) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69501) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69502) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69503) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69504) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69505) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69506) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69507) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69508) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69509) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69510) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69511) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69512) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69513) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69514) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69515) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69516) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69517) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69518) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69519) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69520) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69521) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69522) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69523) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69524) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69525) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69526) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69527) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69528) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69529) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69530) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69531) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69532) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69533) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69534) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69535) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69536) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69537) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69538) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69539) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69540) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69541) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69542) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69543) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69544) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69545) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69546) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69547) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69548) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69549) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69550) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69551) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69552) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69553) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69554) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69555) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69556) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69557) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69558) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69559) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 69560) [0m
+  [4;35;1mJourneyDetail Load (0.5ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 117604) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 117605) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 117606) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 117607) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 117608) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 117609) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 117610) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 117632) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 117633) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 117634) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 117635) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 117636) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 117637) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 117638) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 117639) [0m
+Completed in 13974ms (View: 138, DB: 13742) | 200 OK [http://localhost/bus_stops/1800WEBS001%20?service=43]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:39:12) [GET]
+  Parameters: {"service"=>"268", "id"=>"1800WEBS001 "}
+  [4;35;1mBusStop Load (0.7ms)[0m   [0mSELECT name, ref_code FROM `bus_stops` WHERE (ref_code = '1800WEBS001 ') LIMIT 1[0m
+  [4;36;1mService Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mJourneyDetail Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `journey_details`[0m
+  [4;36;1mService Load Including Associations (551.0ms)[0m   [0;1mSELECT `services`.`id` AS t0_r0, `services`.`reference` AS t0_r1, `services`.`stop_list_number` AS t0_r2, `services`.`direction` AS t0_r3, `services`.`term_start` AS t0_r4, `services`.`term_end` AS t0_r5, `services`.`days_of_operation` AS t0_r6, `services`.`number` AS t0_r7, `services`.`description` AS t0_r8, `services`.`created_at` AS t0_r9, `services`.`updated_at` AS t0_r10, `journey_details`.`id` AS t1_r0, `journey_details`.`service_id` AS t1_r1, `journey_details`.`operator` AS t1_r2, `journey_details`.`journey_identifier` AS t1_r3, `journey_details`.`monday` AS t1_r4, `journey_details`.`tuesday` AS t1_r5, `journey_details`.`wednesday` AS t1_r6, `journey_details`.`thursday` AS t1_r7, `journey_details`.`friday` AS t1_r8, `journey_details`.`saturday` AS t1_r9, `journey_details`.`sunday` AS t1_r10, `journey_details`.`school_term` AS t1_r11, `journey_details`.`bank_holidays` AS t1_r12, `journey_details`.`journey_type` AS t1_r13, `journey_details`.`journey_note` AS t1_r14, `journey_details`.`created_at` AS t1_r15, `journey_details`.`updated_at` AS t1_r16 FROM `services` LEFT OUTER JOIN `journey_details` ON journey_details.service_id = services.id WHERE (trim(services.number) = '268' AND services.term_start < '2010-09-15' AND (services.term_end > '2010-09-15' OR services.term_end IS NULL) AND journey_details.monday = '1') [0m
+  [4;35;1mJourneyStop Load (13661.3ms)[0m   [0mSELECT * FROM `journey_stops` WHERE (bus_stop_id = '1800WEBS001 ' AND service_id IN(4482,4484)) [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+  [4;36;1mBusStop Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `bus_stops`[0m
+  [4;35;1mJourneyStop Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `journey_stops`[0m
+  [4;36;1mJourneyDetail Load (0.8ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102367) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102368) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102369) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102370) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102371) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102372) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102373) [0m
+  [4;35;1mJourneyDetail Load (0.5ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102374) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102375) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102376) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102387) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102388) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102389) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102390) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102391) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102392) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102393) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102394) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102395) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102396) [0m
+Completed in 14363ms (View: 33, DB: 14229) | 200 OK [http://localhost/bus_stops/1800WEBS001%20?service=268]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:40:36) [GET]
+  Parameters: {"service"=>"268", "id"=>"1800WEBS001 "}
+  [4;35;1mBusStop Load (0.8ms)[0m   [0mSELECT name, ref_code FROM `bus_stops` WHERE (ref_code = '1800WEBS001 ') LIMIT 1[0m
+  [4;36;1mService Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mJourneyDetail Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `journey_details`[0m
+  [4;36;1mService Load Including Associations (575.3ms)[0m   [0;1mSELECT `services`.`id` AS t0_r0, `services`.`reference` AS t0_r1, `services`.`stop_list_number` AS t0_r2, `services`.`direction` AS t0_r3, `services`.`term_start` AS t0_r4, `services`.`term_end` AS t0_r5, `services`.`days_of_operation` AS t0_r6, `services`.`number` AS t0_r7, `services`.`description` AS t0_r8, `services`.`created_at` AS t0_r9, `services`.`updated_at` AS t0_r10, `journey_details`.`id` AS t1_r0, `journey_details`.`service_id` AS t1_r1, `journey_details`.`operator` AS t1_r2, `journey_details`.`journey_identifier` AS t1_r3, `journey_details`.`monday` AS t1_r4, `journey_details`.`tuesday` AS t1_r5, `journey_details`.`wednesday` AS t1_r6, `journey_details`.`thursday` AS t1_r7, `journey_details`.`friday` AS t1_r8, `journey_details`.`saturday` AS t1_r9, `journey_details`.`sunday` AS t1_r10, `journey_details`.`school_term` AS t1_r11, `journey_details`.`bank_holidays` AS t1_r12, `journey_details`.`journey_type` AS t1_r13, `journey_details`.`journey_note` AS t1_r14, `journey_details`.`created_at` AS t1_r15, `journey_details`.`updated_at` AS t1_r16 FROM `services` LEFT OUTER JOIN `journey_details` ON journey_details.service_id = services.id WHERE (trim(services.number) = '268' AND services.term_start < '2010-09-15' AND (services.term_end > '2010-09-15' OR services.term_end IS NULL) AND journey_details.monday = '1') [0m
+  [4;35;1mJourneyStop Load (14553.0ms)[0m   [0mSELECT * FROM `journey_stops` WHERE (bus_stop_id = '1800WEBS001 ' AND service_id IN(4482,4484)) [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+  [4;36;1mBusStop Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `bus_stops`[0m
+  [4;35;1mJourneyStop Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `journey_stops`[0m
+  [4;36;1mJourneyDetail Load (0.8ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102367) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102368) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102369) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102370) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102371) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102372) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102373) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102374) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102375) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102376) [0m
+  [4;36;1mJourneyDetail Load (0.5ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102387) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102388) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102389) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102390) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102391) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102392) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102393) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102394) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102395) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102396) [0m
+Completed in 15259ms (View: 47, DB: 15144) | 200 OK [http://localhost/bus_stops/1800WEBS001%20?service=268]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:41:38) [GET]
+  Parameters: {"service"=>"268", "id"=>"1800WEBS001 "}
+  [4;35;1mBusStop Load (0.8ms)[0m   [0mSELECT name, ref_code FROM `bus_stops` WHERE (ref_code = '1800WEBS001 ') LIMIT 1[0m
+  [4;36;1mService Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mJourneyDetail Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `journey_details`[0m
+  [4;36;1mService Load Including Associations (574.9ms)[0m   [0;1mSELECT `services`.`id` AS t0_r0, `services`.`reference` AS t0_r1, `services`.`stop_list_number` AS t0_r2, `services`.`direction` AS t0_r3, `services`.`term_start` AS t0_r4, `services`.`term_end` AS t0_r5, `services`.`days_of_operation` AS t0_r6, `services`.`number` AS t0_r7, `services`.`description` AS t0_r8, `services`.`created_at` AS t0_r9, `services`.`updated_at` AS t0_r10, `journey_details`.`id` AS t1_r0, `journey_details`.`service_id` AS t1_r1, `journey_details`.`operator` AS t1_r2, `journey_details`.`journey_identifier` AS t1_r3, `journey_details`.`monday` AS t1_r4, `journey_details`.`tuesday` AS t1_r5, `journey_details`.`wednesday` AS t1_r6, `journey_details`.`thursday` AS t1_r7, `journey_details`.`friday` AS t1_r8, `journey_details`.`saturday` AS t1_r9, `journey_details`.`sunday` AS t1_r10, `journey_details`.`school_term` AS t1_r11, `journey_details`.`bank_holidays` AS t1_r12, `journey_details`.`journey_type` AS t1_r13, `journey_details`.`journey_note` AS t1_r14, `journey_details`.`created_at` AS t1_r15, `journey_details`.`updated_at` AS t1_r16 FROM `services` LEFT OUTER JOIN `journey_details` ON journey_details.service_id = services.id WHERE (trim(services.number) = '268' AND services.term_start < '2010-09-15' AND (services.term_end > '2010-09-15' OR services.term_end IS NULL) AND journey_details.monday = '1') [0m
+  [4;35;1mJourneyStop Load (13733.5ms)[0m   [0mSELECT * FROM `journey_stops` WHERE (bus_stop_id = '1800WEBS001 ' AND service_id IN(4482,4484)) ORDER BY departure, arrival[0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+  [4;36;1mBusStop Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `bus_stops`[0m
+  [4;35;1mJourneyStop Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `journey_stops`[0m
+  [4;36;1mJourneyDetail Load (0.7ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102387) [0m
+  [4;35;1mJourneyDetail Load (0.5ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102388) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102389) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102390) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102391) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102392) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102393) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102394) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102395) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102396) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102367) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102368) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102369) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102370) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102371) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102372) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102373) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102374) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102375) [0m
+  [4;35;1mJourneyDetail Load (0.5ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102376) [0m
+Completed in 14437ms (View: 46, DB: 14323) | 200 OK [http://localhost/bus_stops/1800WEBS001%20?service=268]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:44:16) [GET]
+  Parameters: {"service"=>"268", "id"=>"1800WEBS001 "}
+  [4;35;1mBusStop Load (0.7ms)[0m   [0mSELECT name, ref_code FROM `bus_stops` WHERE (ref_code = '1800WEBS001 ') LIMIT 1[0m
+  [4;36;1mService Columns (68.9ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mJourneyDetail Columns (23.9ms)[0m   [0mSHOW FIELDS FROM `journey_details`[0m
+  [4;36;1mService Load Including Associations (707.4ms)[0m   [0;1mSELECT `services`.`id` AS t0_r0, `services`.`reference` AS t0_r1, `services`.`stop_list_number` AS t0_r2, `services`.`direction` AS t0_r3, `services`.`term_start` AS t0_r4, `services`.`term_end` AS t0_r5, `services`.`days_of_operation` AS t0_r6, `services`.`number` AS t0_r7, `services`.`description` AS t0_r8, `services`.`created_at` AS t0_r9, `services`.`updated_at` AS t0_r10, `journey_details`.`id` AS t1_r0, `journey_details`.`service_id` AS t1_r1, `journey_details`.`operator` AS t1_r2, `journey_details`.`journey_identifier` AS t1_r3, `journey_details`.`monday` AS t1_r4, `journey_details`.`tuesday` AS t1_r5, `journey_details`.`wednesday` AS t1_r6, `journey_details`.`thursday` AS t1_r7, `journey_details`.`friday` AS t1_r8, `journey_details`.`saturday` AS t1_r9, `journey_details`.`sunday` AS t1_r10, `journey_details`.`school_term` AS t1_r11, `journey_details`.`bank_holidays` AS t1_r12, `journey_details`.`journey_type` AS t1_r13, `journey_details`.`journey_note` AS t1_r14, `journey_details`.`created_at` AS t1_r15, `journey_details`.`updated_at` AS t1_r16 FROM `services` LEFT OUTER JOIN `journey_details` ON journey_details.service_id = services.id WHERE (trim(services.number) = '268' AND services.term_start < '2010-09-15' AND (services.term_end > '2010-09-15' OR services.term_end IS NULL) AND journey_details.monday = '1') [0m
+  [4;35;1mJourneyStop Load (13485.6ms)[0m   [0mSELECT * FROM `journey_stops` WHERE (bus_stop_id = '1800WEBS001 ' AND service_id IN(4482,4484)) [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+  [4;36;1mBusStop Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `bus_stops`[0m
+  [4;35;1mJourneyStop Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `journey_stops`[0m
+  [4;36;1mJourneyDetail Load (0.8ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102367) [0m
+  [4;35;1mJourneyDetail Load (0.5ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102368) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102369) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102370) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102371) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102372) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102373) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102374) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102375) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102376) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102387) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102388) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102389) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102390) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102391) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102392) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102393) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102394) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102395) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 102396) [0m
+Completed in 14451ms (View: 59, DB: 14297) | 200 OK [http://localhost/bus_stops/1800WEBS001%20?service=268]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:44:42) [GET]
+  Parameters: {"service"=>"11", "id"=>"1800WEBS001 "}
+  [4;35;1mBusStop Load (0.7ms)[0m   [0mSELECT name, ref_code FROM `bus_stops` WHERE (ref_code = '1800WEBS001 ') LIMIT 1[0m
+  [4;36;1mService Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mJourneyDetail Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `journey_details`[0m
+  [4;36;1mService Load Including Associations (573.7ms)[0m   [0;1mSELECT `services`.`id` AS t0_r0, `services`.`reference` AS t0_r1, `services`.`stop_list_number` AS t0_r2, `services`.`direction` AS t0_r3, `services`.`term_start` AS t0_r4, `services`.`term_end` AS t0_r5, `services`.`days_of_operation` AS t0_r6, `services`.`number` AS t0_r7, `services`.`description` AS t0_r8, `services`.`created_at` AS t0_r9, `services`.`updated_at` AS t0_r10, `journey_details`.`id` AS t1_r0, `journey_details`.`service_id` AS t1_r1, `journey_details`.`operator` AS t1_r2, `journey_details`.`journey_identifier` AS t1_r3, `journey_details`.`monday` AS t1_r4, `journey_details`.`tuesday` AS t1_r5, `journey_details`.`wednesday` AS t1_r6, `journey_details`.`thursday` AS t1_r7, `journey_details`.`friday` AS t1_r8, `journey_details`.`saturday` AS t1_r9, `journey_details`.`sunday` AS t1_r10, `journey_details`.`school_term` AS t1_r11, `journey_details`.`bank_holidays` AS t1_r12, `journey_details`.`journey_type` AS t1_r13, `journey_details`.`journey_note` AS t1_r14, `journey_details`.`created_at` AS t1_r15, `journey_details`.`updated_at` AS t1_r16 FROM `services` LEFT OUTER JOIN `journey_details` ON journey_details.service_id = services.id WHERE (trim(services.number) = '11' AND services.term_start < '2010-09-15' AND (services.term_end > '2010-09-15' OR services.term_end IS NULL) AND journey_details.monday = '1') [0m
+  [4;35;1mJourneyStop Load (13335.2ms)[0m   [0mSELECT * FROM `journey_stops` WHERE (bus_stop_id = '1800WEBS001 ' AND service_id IN(5038,5042)) [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+  [4;36;1mBusStop Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `bus_stops`[0m
+  [4;35;1mJourneyStop Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `journey_stops`[0m
+  [4;36;1mJourneyDetail Load (0.9ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111501) [0m
+  [4;35;1mJourneyDetail Load (0.5ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111502) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111503) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111504) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111505) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111506) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111507) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111508) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111509) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111510) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111511) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111512) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111513) [0m
+  [4;35;1mJourneyDetail Load (0.5ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111514) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111515) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111516) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111517) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111518) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111519) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111520) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111521) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111522) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111523) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111524) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111525) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111526) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111527) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111528) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111529) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111530) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111531) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111532) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111533) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111534) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111535) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111536) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111537) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111538) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111539) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111540) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111541) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111542) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111543) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111544) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111545) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111546) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111547) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111548) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111549) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111550) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111551) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111552) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111553) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111554) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111555) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111556) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111557) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111558) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111559) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111560) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111561) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111562) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111563) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111564) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111565) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111566) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111567) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111568) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111569) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111570) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111571) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111688) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111689) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111690) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111691) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111692) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111693) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111694) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111695) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111696) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111697) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111698) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111699) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111700) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111701) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111702) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111703) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111704) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111705) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111706) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111707) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111708) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111709) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111710) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111711) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111712) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111713) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111714) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111715) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111716) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111717) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111718) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111719) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111720) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111721) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111722) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111723) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111724) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111725) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111726) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111727) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111728) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111729) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111730) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111731) [0m
+  [4;35;1mJourneyDetail Load (0.5ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111732) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111733) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111734) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111735) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111736) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111737) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111738) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111739) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111740) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111741) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111742) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111743) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111744) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111745) [0m
+  [4;35;1mJourneyDetail Load (0.7ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111746) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111747) [0m
+  [4;35;1mJourneyDetail Load (0.5ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111748) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111749) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111750) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111751) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111752) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111753) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111754) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111755) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111756) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 111757) [0m
+Completed in 14781ms (View: 726, DB: 13959) | 200 OK [http://localhost/bus_stops/1800WEBS001%20?service=11]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:45:45) [GET]
+  Parameters: {"id"=>"1800SB09571"}
+  [4;36;1mBusStop Load (0.6ms)[0m   [0;1mSELECT name, ref_code FROM `bus_stops` WHERE (ref_code = '1800SB09571') LIMIT 1[0m
+  [4;35;1mJourneyStop Load (12339.6ms)[0m   [0mSELECT service_id FROM `journey_stops` WHERE (bus_stop_id = '1800SB09571') GROUP BY service_id[0m
+  [4;36;1mJourneyStop Columns (16.6ms)[0m   [0;1mSHOW FIELDS FROM `journey_stops`[0m
+  [4;35;1mService Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+  [4;36;1mService Load (1.6ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.`id` IN (534,535,536,537,538,543,544,545,546,547,548,549,550,551,560,561,562,563,588,590,592,593,594,595,600,601,602,603,3120,3121,3122,3123,3386,3387,3388,3389,3394,3395,3396,3397)) [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+  [4;35;1mBusStop Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `bus_stops`[0m
+Completed in 12456ms (View: 45, DB: 12363) | 200 OK [http://localhost/bus_stops/1800SB09571]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#show (for 127.0.0.1 at 2010-09-15 21:46:01) [GET]
+  Parameters: {"service"=>"85", "id"=>"1800SB09571 "}
+  [4;35;1mBusStop Load (0.8ms)[0m   [0mSELECT name, ref_code FROM `bus_stops` WHERE (ref_code = '1800SB09571 ') LIMIT 1[0m
+  [4;36;1mService Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mJourneyDetail Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `journey_details`[0m
+  [4;36;1mService Load Including Associations (620.7ms)[0m   [0;1mSELECT `services`.`id` AS t0_r0, `services`.`reference` AS t0_r1, `services`.`stop_list_number` AS t0_r2, `services`.`direction` AS t0_r3, `services`.`term_start` AS t0_r4, `services`.`term_end` AS t0_r5, `services`.`days_of_operation` AS t0_r6, `services`.`number` AS t0_r7, `services`.`description` AS t0_r8, `services`.`created_at` AS t0_r9, `services`.`updated_at` AS t0_r10, `journey_details`.`id` AS t1_r0, `journey_details`.`service_id` AS t1_r1, `journey_details`.`operator` AS t1_r2, `journey_details`.`journey_identifier` AS t1_r3, `journey_details`.`monday` AS t1_r4, `journey_details`.`tuesday` AS t1_r5, `journey_details`.`wednesday` AS t1_r6, `journey_details`.`thursday` AS t1_r7, `journey_details`.`friday` AS t1_r8, `journey_details`.`saturday` AS t1_r9, `journey_details`.`sunday` AS t1_r10, `journey_details`.`school_term` AS t1_r11, `journey_details`.`bank_holidays` AS t1_r12, `journey_details`.`journey_type` AS t1_r13, `journey_details`.`journey_note` AS t1_r14, `journey_details`.`created_at` AS t1_r15, `journey_details`.`updated_at` AS t1_r16 FROM `services` LEFT OUTER JOIN `journey_details` ON journey_details.service_id = services.id WHERE (trim(services.number) = '85' AND services.term_start < '2010-09-15' AND (services.term_end > '2010-09-15' OR services.term_end IS NULL) AND journey_details.monday = '1') [0m
+  [4;35;1mJourneyStop Load (13322.7ms)[0m   [0mSELECT * FROM `journey_stops` WHERE (bus_stop_id = '1800SB09571 ' AND service_id IN(3394,3398)) [0m
+Rendering template within layouts/bus_stops
+Rendering bus_stops/show
+  [4;36;1mBusStop Columns (7.5ms)[0m   [0;1mSHOW FIELDS FROM `bus_stops`[0m
+  [4;35;1mJourneyStop Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `journey_stops`[0m
+  [4;36;1mJourneyDetail Load (0.8ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 76998) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 76999) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77000) [0m
+  [4;35;1mJourneyDetail Load (0.5ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77001) [0m
+  [4;36;1mJourneyDetail Load (0.5ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77002) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77003) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77004) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77005) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77006) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77007) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77008) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77009) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77010) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77011) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77012) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77013) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77014) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77015) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77016) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77017) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77018) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77019) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77020) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77021) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77022) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77023) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77024) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77025) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77026) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77027) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77028) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77029) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77030) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77031) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77032) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77033) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77034) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77035) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77036) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77037) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77038) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77039) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77040) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77041) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77042) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77043) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77044) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77045) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77046) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77047) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77048) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77049) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77050) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77051) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77052) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77053) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77054) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77055) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77056) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77057) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77058) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77059) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77060) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77061) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77062) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77063) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77064) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77065) [0m
+  [4;36;1mJourneyDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77066) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77067) [0m
+  [4;36;1mJourneyDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77068) [0m
+  [4;35;1mJourneyDetail Load (0.5ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77069) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77070) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77071) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77072) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77073) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77074) [0m
+  [4;35;1mJourneyDetail Load (0.4ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77075) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77076) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77077) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77078) [0m
+  [4;35;1mJourneyDetail Load (0.3ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77079) [0m
+  [4;36;1mJourneyDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77080) [0m
+  [4;35;1mJourneyDetail Load (0.2ms)[0m   [0mSELECT * FROM `journey_details` WHERE (`journey_details`.`id` = 77081) [0m
+Completed in 14126ms (View: 63, DB: 13983) | 200 OK [http://localhost/bus_stops/1800SB09571%20?service=85]

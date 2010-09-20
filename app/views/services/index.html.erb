@@ -2,7 +2,7 @@
 
 <div style="width:50px;float:left">
 <% @ind_services.each do |s| %>
-	<%= s.number %><br>
+	<%= link_to s.number, s %><br>
 <% end %>
 </div>
 <div style="width:250px;float:left">

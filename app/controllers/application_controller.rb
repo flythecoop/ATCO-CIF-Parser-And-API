@@ -8,87 +8,32 @@ class ApplicationController < ActionController::Base
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
   
-  def atco_cif
-    require 'atco'
-
-    @cif_data = Atco.parse('public/GMA_111_.CIF') # an example data file in the repo
-
-  end
-  
-  def import_stops
-    @path = File.expand_path('public/GMA_111_.CIF')
-    data = File.readlines(@path)
-    stop_list = []
-    
-    data.each do |line|
-      #logger.info("--- Record Identity: #{line[0,2]}")
-      if line[0,2] == 'ZA'
-        if !stop_list.include?(line[3,12])
-          @bus_stop = BusStop.new
-          @bus_stop.ref_code = line[3,12]
-          @bus_stop.name = line[15,48]
-          @bus_stop.publicity_point = 1 if line[63,2] == 'P1'
-          @bus_stop.working_point = 1 if line[63,2] == 'W1'
-          @bus_stop.timing_point = 1 if line[63,2] == 'T1'
-          @bus_stop.save!
-          stop_list << line[3,12] unless stop_list.include?(line[3,12])
-        end
-      end
-    end
-    logger.info("--- Stop List: #{stop_list}")
-  end
-  
-  def import_service
-    @path = File.expand_path('public/GMA_111_.CIF')
-    data = File.readlines(@path)
-    
-    data.each do |line|
-      if line[0,2] == 'ZL'
-        @service = Service.new
-        @service.reference = line[2,8]
-        @service.stop_list_number = line[10,3]
-        @service.direction = line[13,1]
-      end
-      if line[0,2] == 'ZD'
-        @service.term_start = line[2,8]
-        logger.info("--- Term Start: #{line[2,8]}")
-        @service.term_end = line[10,8]
-        @service.days_of_operation = line[18,64]
-      end
-      if line[0,2] == 'ZS'
-        @service.number = line[10,4]
-        @service.description = line[14,50]
-        @service.save!
-      end
-    end
-  end
-  
   def import_times
     @files = Dir.glob('public/cif/*')
+    stop_list = []
     @files.each do |file|
       @path = File.expand_path(file)
       data = File.readlines(@path)
-      stop_list = []
     
       data.each do |line|      
-        if line[0,2] == 'ZL'
+        if line[0,2] == 'ZL' # Timetable Stop List record
           @service = Service.new
           @service.reference = line[2,8]
           @service.stop_list_number = line[10,3]
           @service.direction = line[13,1]
         end
-        if line[0,2] == 'ZD'
+        if line[0,2] == 'ZD' # Timetable Date record
           @service.term_start = line[2,8]
           @service.term_end = line[10,8]
           @service.days_of_operation = line[18,64]
         end
-        if line[0,2] == 'ZS'
+        if line[0,2] == 'ZS' # Service Details record
           @service.number = line[10,4]
           @service.description = line[14,50]
           @service.save!
           @bus_service = Service.find(:last)
         end
-        if line[0,2] == 'ZA'
+        if line[0,2] == 'ZA' # Timetable Row List Entries
           if !stop_list.include?(line[3,12])
             @bus_stop = BusStop.new
             @bus_stop.ref_code = line[3,12]
@@ -100,7 +45,7 @@ class ApplicationController < ActionController::Base
             stop_list << line[3,12] unless stop_list.include?(line[3,12])
           end
         end
-        if line[0,2] == 'QS'
+        if line[0,2] == 'QS' # Journey Header
           @journey_detail = JourneyDetail.new
           @journey_detail.service_id = @bus_service.id
           @journey_detail.operator = line[3,4]
@@ -115,10 +60,10 @@ class ApplicationController < ActionController::Base
           @journey_detail.school_term = line[36,1]
           @journey_detail.bank_holidays = line[37,1]
         end
-        if line[0,2] == 'ZJ'
+        if line[0,2] == 'ZJ' # Journey Additional Details record
           @journey_detail.journey_type = line[49,1]
         end
-        if line[0,2] == 'ZN'
+        if line[0,2] == 'ZN' # Note record
           @journey_detail.journey_note = line[7,72]
           @journey_detail.save!
           @detail = JourneyDetail.find(:last)
@@ -127,7 +72,7 @@ class ApplicationController < ActionController::Base
           @journey_detail.save!
           @detail = JourneyDetail.find(:last)
         end
-        if line[0,2] == 'QO'
+        if line[0,2] == 'QO' # Origin Record
           @journey_stop = JourneyStop.new
           @journey_stop.service_id = @bus_service.id
           @journey_stop.journey_detail_id = @detail.id
@@ -135,8 +80,7 @@ class ApplicationController < ActionController::Base
           @journey_stop.departure = "#{line[14,2]}:#{line[16,2]}:00"
           @journey_stop.bay_number = line[18,3]
           @journey_stop.save!
-          #logger.info("--- Journey Time: #{@journey_stop.inspect}")
-        elsif line[0,2] == 'QI'
+        elsif line[0,2] == 'QI' # Intermediate Record
           @journey_stop = JourneyStop.new
           @journey_stop.service_id = @bus_service.id
           @journey_stop.journey_detail_id = @detail.id
@@ -145,8 +89,7 @@ class ApplicationController < ActionController::Base
           @journey_stop.departure = "#{line[18,2]}:#{line[20,2]}:00"
           @journey_stop.bay_number = line[23,3]
           @journey_stop.save!
-          #logger.info("--- Journey Time: #{@journey_stop.inspect}")
-        elsif line[0,2] == 'QT'
+        elsif line[0,2] == 'QT' # Destination Record
           @journey_stop = JourneyStop.new
           @journey_stop.service_id = @bus_service.id
           @journey_stop.journey_detail_id = @detail.id
@@ -154,14 +97,10 @@ class ApplicationController < ActionController::Base
           @journey_stop.arrival = "#{line[14,2]}:#{line[16,2]}:00"
           @journey_stop.bay_number = line[18,3]
           @journey_stop.save!
-          #logger.info("--- Journey Time: #{@journey_stop.inspect}")
         end
         @previous_record_identity = line[0,2]
       end
     end
   end
   
-  def loop_cif
-    @files = Dir.glob('public/cif/*')
-  end
 end

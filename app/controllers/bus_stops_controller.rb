@@ -13,18 +13,20 @@ class BusStopsController < ApplicationController
   # GET /bus_stops/1
   # GET /bus_stops/1.xml
   def show
-    @bus_stop = BusStop.find_by_ref_code(params[:id])
+    @bus_stop = BusStop.find(:first, :select => "name, ref_code", :conditions => ["ref_code = ?",params[:id]])
     @date = Time.now.localtime.strftime("%Y-%m-%d")
-    @stops = JourneyStop.find(:all, :conditions => ["bus_stop_id = ?",params[:id]], :group => 'service_id')
-    @stop_services = []
-    @stops.each do |s|
-      @stop_services << s.service_id
+    if params[:service]
+      #@ind_services = Service.find(:all, :include => :journey_details, :conditions => ["services.term_start < ? AND (services.term_end > ? OR services.term_end IS NULL) AND journey_details.monday = '1'",@date,@date], :group => 'services.number')
+      @services = Service.find(:all, :include => :journey_details, :conditions => ["trim(services.number) = ? AND services.term_start < ? AND (services.term_end > ? OR services.term_end IS NULL) AND journey_details.monday = '1'",params[:service],@date,@date])
+      @times = JourneyStop.find(:all, :conditions => ["bus_stop_id = ? AND service_id IN(?)",params[:id],@services])
+    else
+      @stops = JourneyStop.find(:all, :select => 'service_id', :conditions => ["bus_stop_id = ?",params[:id]], :group => 'service_id')
+      @stop_services = []
+      @stops.each do |s|
+        @stop_services << s.service_id
+      end
+      @services_at_bus_stop = Service.find(@stop_services)
     end
-    @services_at_bus_stop = Service.find(@stop_services)
-    
-    #@ind_services = Service.find(:all, :include => :journey_details, :conditions => ["services.term_start < ? AND (services.term_end > ? OR services.term_end IS NULL) AND journey_details.monday = '1'",@date,@date], :group => 'services.number')
-    @services = Service.find(:all, :include => :journey_details, :conditions => ["trim(services.number) = ? AND services.term_start < ? AND (services.term_end > ? OR services.term_end IS NULL) AND journey_details.monday = '1'",params[:service],@date,@date])
-    @times = JourneyStop.find(:all, :conditions => ["bus_stop_id = ? AND service_id IN(?)",params[:id],@services])
     
     respond_to do |format|
       format.html # show.html.erb

@@ -1,9 +1,5 @@
 <h1><%= @service.number %></h1>
-<h2><%= @service.description %> - <%= @service.days_of_operation %></h2>
-<% @service.journey_details.each do |journey| %>
-	<h3><%= journey.journey_identifier %></h3>
-	<strong><%= journey.journey_note %></strong><br>
-	<% journey.journey_stops.each do |stop| %>
-		<%= stop.departure.strftime("%H:%M") unless !stop.departure %><br>
-	<% end %>
-<% end %>
+<h2><%= @service.description %></h2>
+<h3><%= @service.days_of_operation %></h3>
+<h4><%= @service.term_start %> - <%= @service.term_end if @service.term_end %></h4>
+<h5><%= 'Inbound' if @service.direction == 'I' %><%= 'Outbound' if @service.direction == 'O' %></h5>
